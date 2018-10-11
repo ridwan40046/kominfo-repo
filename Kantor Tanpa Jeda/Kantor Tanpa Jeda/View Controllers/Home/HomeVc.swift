@@ -41,7 +41,7 @@ extension HomeVc: UITableViewDelegate, UITableViewDataSource{
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch section {
-        case 0...6: return 1
+        case 0...5: return 1
         default: return 0
         }
     }
@@ -50,6 +50,21 @@ extension HomeVc: UITableViewDelegate, UITableViewDataSource{
         switch indexPath.section {
         case 0:
             let cell = tableView.cell("0-0")
+            return cell!
+        case 1:
+            let cell = tableView.cell("1-0")
+            return cell!
+        case 2:
+            let cell = tableView.cell("2-0")
+            return cell!
+        case 3:
+            let cell = tableView.cell("3-0")
+            return cell!
+        case 4:
+            let cell = tableView.cell("4-0")
+            return cell!
+        case 5:
+            let cell = tableView.cell("5-0")
             return cell!
         default: break;
         }
