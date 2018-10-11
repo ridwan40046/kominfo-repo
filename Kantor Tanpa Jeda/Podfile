@@ -15,6 +15,7 @@ pod 'AMPopTip', '~> 3.1.1'
 pod 'SWXMLHash', '~> 4.0.0'
 pod 'IQKeyboardManagerSwift'
 pod 'YPImagePicker' , '~> 2.3.0'
+pod 'CalendarLib'
 end
 
 target 'Kantor Tanpa Jeda' do

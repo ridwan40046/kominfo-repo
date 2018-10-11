@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0397CD516FF4CA25A7DD983A /* Pods_Kantor_Tanpa_Jeda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61761DAFDB7F5FBD36A3FC24 /* Pods_Kantor_Tanpa_Jeda.framework */; };
+		8A2584D9216FB59500A7485C /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2584D7216FB59500A7485C /* Calendar.storyboard */; };
+		8A2584DC216FB5BB00A7485C /* ListEventVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2584DA216FB5BB00A7485C /* ListEventVc.swift */; };
+		8A2584DD216FB5BB00A7485C /* JadwalVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2584DB216FB5BB00A7485C /* JadwalVc.swift */; };
+		8A2584E0216FB5E800A7485C /* EventsObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2584DF216FB5E800A7485C /* EventsObj.swift */; };
+		8A2584E2216FB6F900A7485C /* BaseVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2584E1216FB6F900A7485C /* BaseVc.swift */; };
+		8A2584E6216FBB9500A7485C /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A2584E5216FBB9500A7485C /* cross.png */; };
+		8A2584E9216FBD3000A7485C /* HamburgerVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2584E8216FBD3000A7485C /* HamburgerVc.swift */; };
 		9F02CEFA216F2962004AE3AB /* nissa 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F02CEF9216F2961004AE3AB /* nissa 2.jpg */; };
 		9F0A6E3A2163C53E00BF2841 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A6E392163C53E00BF2841 /* AppDelegate.swift */; };
 		9F0A6E3C2163C53E00BF2841 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A6E3B2163C53E00BF2841 /* ViewController.swift */; };
@@ -162,7 +169,7 @@
 		9F47D520216B35CA00FAF37E /* Password.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F47D51E216B35CA00FAF37E /* Password.png */; };
 		9F4B53D7216C37F1000C97FF /* office.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F4B53D6216C37F1000C97FF /* office.jpg */; };
 		9F7E52A9216EF190004A27C9 /* HomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E52A8216EF190004A27C9 /* HomeVc.swift */; };
-		9F7E52AD216F06C8004A27C9 /* hambuegr menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7E52AC216F06C7004A27C9 /* hambuegr menu.png */; };
+		9F7E52AD216F06C8004A27C9 /* hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7E52AC216F06C7004A27C9 /* hamburger.png */; };
 		9FA30150216BB0930030B44E /* LoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA3014F216BB0930030B44E /* LoginVc.swift */; };
 		9FA3015F216BB4160030B44E /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA30155216BB4140030B44E /* OpenSans-ExtraBold.ttf */; };
 		9FA30160216BB4160030B44E /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA30156216BB4140030B44E /* OpenSans-Bold.ttf */; };
@@ -238,6 +245,13 @@
 		114861D63B0D417291E9022A /* Pods-Kantor Tanpa Jeda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kantor Tanpa Jeda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kantor Tanpa Jeda/Pods-Kantor Tanpa Jeda.debug.xcconfig"; sourceTree = "<group>"; };
 		61761DAFDB7F5FBD36A3FC24 /* Pods_Kantor_Tanpa_Jeda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kantor_Tanpa_Jeda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D36407DA369CBE03A8692CB /* Pods_Kantor_Tanpa_Batas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kantor_Tanpa_Batas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2584D8216FB59500A7485C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Calendar.storyboard; sourceTree = "<group>"; };
+		8A2584DA216FB5BB00A7485C /* ListEventVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEventVc.swift; sourceTree = "<group>"; };
+		8A2584DB216FB5BB00A7485C /* JadwalVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JadwalVc.swift; sourceTree = "<group>"; };
+		8A2584DF216FB5E800A7485C /* EventsObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsObj.swift; sourceTree = "<group>"; };
+		8A2584E1216FB6F900A7485C /* BaseVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVc.swift; sourceTree = "<group>"; };
+		8A2584E5216FBB9500A7485C /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		8A2584E8216FBD3000A7485C /* HamburgerVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerVc.swift; sourceTree = "<group>"; };
 		8EDBD279DCFC93142DF7AEC8 /* Pods-Kantor Tanpa Batas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kantor Tanpa Batas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kantor Tanpa Batas/Pods-Kantor Tanpa Batas.release.xcconfig"; sourceTree = "<group>"; };
 		9F02CEF9216F2961004AE3AB /* nissa 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nissa 2.jpg"; sourceTree = "<group>"; };
 		9F0A6E362163C53E00BF2841 /* Kantor Tanpa Jeda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kantor Tanpa Jeda.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -402,7 +416,7 @@
 		9F47D51E216B35CA00FAF37E /* Password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Password.png; sourceTree = "<group>"; };
 		9F4B53D6216C37F1000C97FF /* office.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = office.jpg; sourceTree = "<group>"; };
 		9F7E52A8216EF190004A27C9 /* HomeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVc.swift; sourceTree = "<group>"; };
-		9F7E52AC216F06C7004A27C9 /* hambuegr menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hambuegr menu.png"; sourceTree = "<group>"; };
+		9F7E52AC216F06C7004A27C9 /* hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburger.png; sourceTree = "<group>"; };
 		9FA3014F216BB0930030B44E /* LoginVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVc.swift; sourceTree = "<group>"; };
 		9FA30155216BB4140030B44E /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBold.ttf"; path = "open sans/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		9FA30156216BB4140030B44E /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "open sans/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
@@ -495,6 +509,24 @@
 				61761DAFDB7F5FBD36A3FC24 /* Pods_Kantor_Tanpa_Jeda.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A2584DE216FB5C600A7485C /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				8A2584DB216FB5BB00A7485C /* JadwalVc.swift */,
+				8A2584DA216FB5BB00A7485C /* ListEventVc.swift */,
+			);
+			name = Calendar;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		8A2584E7216FBD2000A7485C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8A2584E8216FBD3000A7485C /* HamburgerVc.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		9F0A6E2D2163C53E00BF2841 = {
@@ -605,12 +637,13 @@
 			isa = PBXGroup;
 			children = (
 				9F02CEF9216F2961004AE3AB /* nissa 2.jpg */,
-				9F7E52AC216F06C7004A27C9 /* hambuegr menu.png */,
+				9F7E52AC216F06C7004A27C9 /* hamburger.png */,
 				9F0BA74821656AF3001C3A4B /* add jadwal.png */,
 				9F0BA75621656AF9001C3A4B /* Add.png */,
 				9F0BA74A21656AF4001C3A4B /* agenda.png */,
 				9FE29678216D6B80008F13C1 /* akun saya active.png */,
 				9FE29677216D6B7F008F13C1 /* akun saya disable.png */,
+				8A2584E5216FBB9500A7485C /* cross.png */,
 				9F0BA74E21656AF5001C3A4B /* button arrow.png */,
 				9F0BA75121656AF7001C3A4B /* draft.png */,
 				9F0BA75221656AF7001C3A4B /* edit pic.png */,
@@ -653,6 +686,7 @@
 			children = (
 				9F0BA86821656F6D001C3A4B /* BaseModel.swift */,
 				9F0BA86721656F6C001C3A4B /* ErrorObj.swift */,
+				8A2584DF216FB5E800A7485C /* EventsObj.swift */,
 				9F0BA86921656F6D001C3A4B /* JsonObject.swift */,
 			);
 			path = Models;
@@ -661,9 +695,11 @@
 		9F0BA74121656732001C3A4B /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8A2584DE216FB5C600A7485C /* Calendar */,
 				9F7E52A7216EF178004A27C9 /* Home */,
 				9FA3014E216BB07B0030B44E /* Auth */,
 				9F0A6E392163C53E00BF2841 /* AppDelegate.swift */,
+				8A2584E7216FBD2000A7485C /* Shared */,
 				9F0A6E3B2163C53E00BF2841 /* ViewController.swift */,
 			);
 			path = "View Controllers";
@@ -673,6 +709,7 @@
 			isa = PBXGroup;
 			children = (
 				9F0BA85221656EDB001C3A4B /* BaseViewController.swift */,
+				8A2584E1216FB6F900A7485C /* BaseVc.swift */,
 				9F0BA85021656EDB001C3A4B /* BaseViewController+MagicKeyboard.swift */,
 				9F0BA84F21656EDB001C3A4B /* CGFloat+Stars.swift */,
 				9F0BA85321656EDB001C3A4B /* UIFont+Preset.swift */,
@@ -818,6 +855,7 @@
 		9F0BA7452165677D001C3A4B /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				8A2584D7216FB59500A7485C /* Calendar.storyboard */,
 				9F0A6E3D2163C53E00BF2841 /* Main.storyboard */,
 				9F0A6E422163C54600BF2841 /* LaunchScreen.storyboard */,
 			);
@@ -931,9 +969,10 @@
 				9FA301BE216BB42B0030B44E /* SF-Pro-Text-Regular.otf in Resources */,
 				9FA301A0216BB42B0030B44E /* SF-Pro-Display-LightItalic.otf in Resources */,
 				9FA301C7216BB42B0030B44E /* SF-Pro-Display-Thin.otf in Resources */,
+				8A2584E6216FBB9500A7485C /* cross.png in Resources */,
 				9F0BA76621656AFA001C3A4B /* Edit.png in Resources */,
 				9F47D520216B35CA00FAF37E /* Password.png in Resources */,
-				9F7E52AD216F06C8004A27C9 /* hambuegr menu.png in Resources */,
+				9F7E52AD216F06C8004A27C9 /* hamburger.png in Resources */,
 				9FA301AE216BB42B0030B44E /* SF-Pro-Text-Semibold.otf in Resources */,
 				9FA3019C216BB42B0030B44E /* SF-Pro-Display-Ultralight.otf in Resources */,
 				9F0BA75B21656AFA001C3A4B /* add jadwal.png in Resources */,
@@ -1009,6 +1048,7 @@
 				9FA301BA216BB42B0030B44E /* SanFranciscoText-BoldItalic.otf in Resources */,
 				9FA3015F216BB4160030B44E /* OpenSans-ExtraBold.ttf in Resources */,
 				9FA301B4216BB42B0030B44E /* SF-Pro-Display-Regular.otf in Resources */,
+				8A2584D9216FB59500A7485C /* Calendar.storyboard in Resources */,
 				9FE2967E216D6B82008F13C1 /* home disable.png in Resources */,
 				9FA301C3216BB42B0030B44E /* SF-Pro-Display-Semibold.otf in Resources */,
 				9FA301AC216BB42B0030B44E /* SanFranciscoText-SemiboldItalic.otf in Resources */,
@@ -1029,9 +1069,12 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Kantor Tanpa Jeda/Pods-Kantor Tanpa Jeda-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AMPopTip/AMPopTip.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CalendarLib/CalendarLib.framework",
 				"${BUILT_PRODUCTS_DIR}/GSImageViewerController/GSImageViewerController.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/OSCache/OSCache.framework",
+				"${BUILT_PRODUCTS_DIR}/OrderedDictionary/OrderedDictionary.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
 				"${BUILT_PRODUCTS_DIR}/SteviaLayout/Stevia.framework",
@@ -1044,9 +1087,12 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AMPopTip.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CalendarLib.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSImageViewerController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OSCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OrderedDictionary.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stevia.framework",
@@ -1089,6 +1135,7 @@
 				9F0BA85C21656EDB001C3A4B /* UIViewController+Preset.swift in Sources */,
 				9F0BA83421656E90001C3A4B /* UIButton+Image.swift in Sources */,
 				9F0BA80421656E90001C3A4B /* UIViewController+Storyboard.swift in Sources */,
+				8A2584E2216FB6F900A7485C /* BaseVc.swift in Sources */,
 				9F0BA86321656F2A001C3A4B /* Whisper+Function.swift in Sources */,
 				9F0BA82B21656E90001C3A4B /* String+LinkExtractor.swift in Sources */,
 				9F0BA7E921656E90001C3A4B /* UIButton+Title.swift in Sources */,
@@ -1115,6 +1162,7 @@
 				9FA30150216BB0930030B44E /* LoginVc.swift in Sources */,
 				9F0BA83221656E90001C3A4B /* String+Contains.swift in Sources */,
 				9F0BA7F121656E90001C3A4B /* String+Padding.swift in Sources */,
+				8A2584DD216FB5BB00A7485C /* JadwalVc.swift in Sources */,
 				9F0BA7ED21656E90001C3A4B /* UIView+RemoveAllSubviews.swift in Sources */,
 				9F0BA81121656E90001C3A4B /* UIView+AddGestureRecognizer.swift in Sources */,
 				9F0BA81F21656E90001C3A4B /* UIImage+Hue.swift in Sources */,
@@ -1144,6 +1192,7 @@
 				9F0BA84221656E90001C3A4B /* UITableView+IndexPath.swift in Sources */,
 				9F0BA7F521656E90001C3A4B /* UIView+ParentSearch.swift in Sources */,
 				9F0BA80F21656E90001C3A4B /* UILabel+HeightToFit.swift in Sources */,
+				8A2584DC216FB5BB00A7485C /* ListEventVc.swift in Sources */,
 				9F0BA7EC21656E90001C3A4B /* OptionalComparison.swift in Sources */,
 				9F0BA7E021656E90001C3A4B /* UIView+RoundedRect.swift in Sources */,
 				9F0BA7E421656E90001C3A4B /* UIViewController+RemoveFromStack.swift in Sources */,
@@ -1203,6 +1252,7 @@
 				9F0BA80921656E90001C3A4B /* UINavigationController+RemoveViewController.swift in Sources */,
 				9F0BA84B21656E90001C3A4B /* UIScreen+Size.swift in Sources */,
 				9F0BA81E21656E90001C3A4B /* UITextField+Padding.swift in Sources */,
+				8A2584E0216FB5E800A7485C /* EventsObj.swift in Sources */,
 				9F0BA7FA21656E90001C3A4B /* Collection+Comparison.swift in Sources */,
 				9F0BA80121656E90001C3A4B /* CGRect+Center.swift in Sources */,
 				9F0BA82A21656E90001C3A4B /* UIImage+Base64.swift in Sources */,
@@ -1211,6 +1261,7 @@
 				9F0BA83121656E90001C3A4B /* UIView+TagCasting.swift in Sources */,
 				9F0BA86221656F2A001C3A4B /* String+UrlGetter.swift in Sources */,
 				9F0BA83C21656E90001C3A4B /* UIResponder+FirstResponder.swift in Sources */,
+				8A2584E9216FBD3000A7485C /* HamburgerVc.swift in Sources */,
 				9F0BA81321656E90001C3A4B /* CALayer+Image.swift in Sources */,
 				9F0BA7DF21656E90001C3A4B /* CommonUtility.swift in Sources */,
 				9F0BA84921656E90001C3A4B /* UITableViewCell+HeightToFit.swift in Sources */,
@@ -1222,6 +1273,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		8A2584D7216FB59500A7485C /* Calendar.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A2584D8216FB59500A7485C /* Base */,
+			);
+			name = Calendar.storyboard;
+			sourceTree = "<group>";
+		};
 		9F0A6E3D2163C53E00BF2841 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
