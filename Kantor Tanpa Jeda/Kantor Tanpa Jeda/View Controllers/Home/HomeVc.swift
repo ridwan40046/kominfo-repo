@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class HomeVc: UIViewController {
+class HomeVc: BaseVc {
     @IBOutlet weak var imageProfile: UIImageView!
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var jabatan: UILabel!
@@ -72,5 +72,16 @@ extension HomeVc: UITableViewDelegate, UITableViewDataSource{
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return self.tableView(tableView, cellForRowAt: indexPath).height;
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        switch indexPath.section {
+        case 2:
+            let vc = UIViewController.instantiate(named: "JadwalVc") as? JadwalVc
+            vc?.show(currentVc: self)
+        default:
+            print("\(indexPath.section), \(indexPath.row)")
+        }
     }
 }

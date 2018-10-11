@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kantor Tanpa Jeda/Libraries (Pods)/Toaster+Function.swift"
+            timestampString = "560973734.830791"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "toast(_:color:duration:force:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Kantor_Tanpa_Jeda.toast(_: Swift.Optional&lt;Swift.String&gt;, color: Swift.Optional&lt;__C.UIColor&gt;, duration: Swift.Optional&lt;Swift.Double&gt;, force: Swift.Bool) -&gt; ()"
+                  moduleName = "Kantor Tanpa Jeda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asadardiansyah/Documents/GitHub/kominfo-repo/Kantor%20Tanpa%20Jeda/Kantor%20Tanpa%20Jeda/Libraries%20(Pods)/Toaster+Function.swift"
+                  timestampString = "560973735.016356"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "63">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Kantor_Tanpa_Jeda.toast(_: Swift.Optional&lt;Swift.String&gt;, color: Swift.Optional&lt;__C.UIColor&gt;, duration: Swift.Optional&lt;Swift.Double&gt;, force: Swift.Bool) -&gt; ()"
+                  moduleName = "Kantor Tanpa Jeda"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asadardiansyah/Documents/GitHub/kominfo-repo/Kantor%20Tanpa%20Jeda/Kantor%20Tanpa%20Jeda/Libraries%20(Pods)/Toaster+Function.swift"
+                  timestampString = "560973735.019639"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "87">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kantor Tanpa Jeda/Libraries (Pods)/Toaster+Function.swift"
+            timestampString = "560973734.8308851"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "toast(_:color:duration:force:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kantor Tanpa Jeda/Libraries (Local)/BaseVc.swift"
+            timestampString = "560973734.830952"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "setNavBar()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

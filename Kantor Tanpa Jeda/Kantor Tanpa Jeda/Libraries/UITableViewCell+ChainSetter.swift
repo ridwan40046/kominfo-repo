@@ -91,9 +91,9 @@ extension UITableViewCell {
     func setButtonImage (_ tag: Int, with image: UIImage?) -> UITableViewCell {
         self.button(tag)?.setImage(image, for: UIControlState.normal); return self; }
     
-    enum SeparatorStyle { case full; case normal; case none; }
+    enum SeparatorStyles { case full; case normal; case none; }
     @discardableResult
-    func setSeparator (type: SeparatorStyle?) -> UITableViewCell { guard let type = type else { return self; }
+    func setSeparator (type: SeparatorStyles?) -> UITableViewCell { guard let type = type else { return self; }
         switch type {
         case .full:
             self.preservesSuperviewLayoutMargins = true;
