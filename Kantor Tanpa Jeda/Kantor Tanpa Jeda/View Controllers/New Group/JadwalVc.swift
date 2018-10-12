@@ -16,8 +16,9 @@ class JadwalVc: BaseVc {
     let today = Date()
     let year = Calendar.current.component(.year, from: Date())
     let month = Calendar.current.component(.month, from: Date())
+    var isHidden = false
     
-    
+    @IBOutlet weak var btnPlus: UIButton!
     @IBOutlet weak var monthView: MGCMonthPlannerView!
     
     override func viewDidLoad() {
@@ -26,8 +27,17 @@ class JadwalVc: BaseVc {
         setCalendarAttr()
     }
     
+    @IBAction func btnTambahTapped(_ sender: UIButton) {
+        let vc = UIViewController.instantiate(named: "NewAgendaVc") as? NewAgendaVc
+        vc?.show(currentVc: self)
+    }
+    
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        self.tabBarController?.tabBar.isHidden = true
+        btnPlus.isHidden = isHidden
+
         setHeader()
         setNavBar()
     }
@@ -40,15 +50,23 @@ class JadwalVc: BaseVc {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         viewR.removeFromSuperview()
+        self.tabBarController?.tabBar.isHidden = false
+        if #available(iOS 11.0, *) {
+            self.navigationController?.navigationBar.prefersLargeTitles = false
+        } else {
+            // Fallback on earlier versions
+        }
     }
     
-    func show(currentVc: UIViewController) {
+    func show(currentVc: UIViewController, title: String, isHidden: Bool) {
         self.currentVc = currentVc
+        self.title = title
+        self.isHidden = isHidden
         currentVc.navigationController?.pushViewController(self, animated: true)
     }
     
     override func setNavBar(){
-        self.title = "Agenda Pimpinan"
+        
 
         let back = UIBarButtonItem()
         back.title = "Kembali"
@@ -206,7 +224,7 @@ extension JadwalVc: MGCMonthPlannerViewDelegate, MGCMonthPlannerViewDataSource {
         print(date)
         let mainStoryboard: UIStoryboard = UIStoryboard(name: "Calendar", bundle: nil)
         let viewController = mainStoryboard.instantiateViewController(withIdentifier: "ListEventVc") as! ListEventVc
-        viewController.show(event: filterEvent(date: date), date: date, currentVc: self)
+        viewController.show(event: filterEvent(date: date), date: date, currentVc: self, isHidden: isHidden)
     }
     
     func monthPlannerView(_ view: MGCMonthPlannerView!, numberOfEventsAt date: Date!) -> Int {
