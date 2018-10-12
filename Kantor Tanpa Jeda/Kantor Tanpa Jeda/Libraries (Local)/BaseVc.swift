@@ -20,6 +20,11 @@ class BaseVc: UIViewController {
         setNavBar()
     }
     
+    func show(currentVc: UIViewController){
+        currentVc.navigationController?.pushViewController(self, animated: true)
+        self.currentBaseVc = currentVc
+    }
+    
     @objc func hamburger(){
         Util.showHamburger(currentVc: self)
     }

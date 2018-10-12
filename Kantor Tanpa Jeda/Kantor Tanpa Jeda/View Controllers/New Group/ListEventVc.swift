@@ -15,8 +15,9 @@ class ListEventVc: BaseVc {
     var events = [EventObj]()
     var date: Date?
     var currentVc: UIViewController?
-    
+    var isHidden = false
  
+    @IBOutlet weak var btnPlus: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         setListAtt()
@@ -25,10 +26,22 @@ class ListEventVc: BaseVc {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         setNavBar()
+        btnPlus.isHidden = isHidden
+        self.tabBarController?.tabBar.isHidden = true
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        self.tabBarController?.tabBar.isHidden = false
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+    }
+    
+    @IBAction func btnTambahTapped(_ sender: UIButton) {
+        let vc = UIViewController.instantiate(named: "NewAgendaVc") as? NewAgendaVc
+        vc?.show(currentVc: self)
     }
     
     func setListAtt(){
@@ -43,11 +56,11 @@ class ListEventVc: BaseVc {
         dayPlannerView.dateRange = MGCDateRange(start: date, end: date?.addingTimeInterval(24*3600))
     }
     
-    func show(event: [EventObj], date: Date, currentVc: UIViewController){
+    func show(event: [EventObj], date: Date, currentVc: UIViewController, isHidden: Bool){
         self.events = event
         self.date = date
         self.currentVc = currentVc
-        
+        self.isHidden = isHidden
         currentVc.navigationController?.pushViewController(self, animated: true)
     }
     
