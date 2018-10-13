@@ -179,7 +179,10 @@
 		9F47D520216B35CA00FAF37E /* Password.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F47D51E216B35CA00FAF37E /* Password.png */; };
 		9F4B53D7216C37F1000C97FF /* office.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F4B53D6216C37F1000C97FF /* office.jpg */; };
 		9F7E52A9216EF190004A27C9 /* HomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E52A8216EF190004A27C9 /* HomeVc.swift */; };
-		9F7E52AD216F06C8004A27C9 /* hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7E52AC216F06C7004A27C9 /* hamburger.png */; };
+		9F7E52AD216F06C8004A27C9 /* hambuegr menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7E52AC216F06C7004A27C9 /* hambuegr menu.png */; };
+		9F98389D216FBAF100614483 /* temporary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F98389C216FBAF100614483 /* temporary.storyboard */; };
+		9F9838A0216FBBDB00614483 /* ProfileVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F98389F216FBBDB00614483 /* ProfileVc.swift */; };
+		9F9838A2216FC51F00614483 /* nella kharisma .png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9838A1216FC51E00614483 /* nella kharisma .png */; };
 		9FA30150216BB0930030B44E /* LoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA3014F216BB0930030B44E /* LoginVc.swift */; };
 		9FA3015F216BB4160030B44E /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA30155216BB4140030B44E /* OpenSans-ExtraBold.ttf */; };
 		9FA30160216BB4160030B44E /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA30156216BB4140030B44E /* OpenSans-Bold.ttf */; };
@@ -436,7 +439,10 @@
 		9F47D51E216B35CA00FAF37E /* Password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Password.png; sourceTree = "<group>"; };
 		9F4B53D6216C37F1000C97FF /* office.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = office.jpg; sourceTree = "<group>"; };
 		9F7E52A8216EF190004A27C9 /* HomeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVc.swift; sourceTree = "<group>"; };
-		9F7E52AC216F06C7004A27C9 /* hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburger.png; sourceTree = "<group>"; };
+		9F7E52AC216F06C7004A27C9 /* hambuegr menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hambuegr menu.png"; sourceTree = "<group>"; };
+		9F98389C216FBAF100614483 /* temporary.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = temporary.storyboard; sourceTree = "<group>"; };
+		9F98389F216FBBDB00614483 /* ProfileVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVc.swift; sourceTree = "<group>"; };
+		9F9838A1216FC51E00614483 /* nella kharisma .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nella kharisma .png"; sourceTree = "<group>"; };
 		9FA3014F216BB0930030B44E /* LoginVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVc.swift; sourceTree = "<group>"; };
 		9FA30155216BB4140030B44E /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBold.ttf"; path = "open sans/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		9FA30156216BB4140030B44E /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "open sans/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
@@ -681,6 +687,7 @@
 				8A482ACC2170E863007BE6BD /* arrowDown.png */,
 				9F0BA75621656AF9001C3A4B /* Add.png */,
 				9F0BA74A21656AF4001C3A4B /* agenda.png */,
+				9F9838A1216FC51E00614483 /* nella kharisma .png */,
 				9FE29678216D6B80008F13C1 /* akun saya active.png */,
 				9FE29677216D6B7F008F13C1 /* akun saya disable.png */,
 				8A482ACE2170EB86007BE6BD /* share.png */,
@@ -736,6 +743,7 @@
 		9F0BA74121656732001C3A4B /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9F98389E216FBAFF00614483 /* Profile */,
 				8AC85BFA21712B640096CA37 /* Jadwal Pimpinan */,
 				8AC85BE821710B480096CA37 /* Inbox */,
 				8A2584DE216FB5C600A7485C /* Calendar */,
@@ -904,6 +912,7 @@
 				8AC85BF7217129360096CA37 /* Persetujuan.storyboard */,
 				8AC85BF0217112C30096CA37 /* Inbox.storyboard */,
 				9F0A6E422163C54600BF2841 /* LaunchScreen.storyboard */,
+				9F98389C216FBAF100614483 /* temporary.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -922,6 +931,14 @@
 				9F7E52A8216EF190004A27C9 /* HomeVc.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		9F98389E216FBAFF00614483 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9F98389F216FBBDB00614483 /* ProfileVc.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		9FA3014E216BB07B0030B44E /* Auth */ = {
@@ -1009,6 +1026,7 @@
 				9FA301A7216BB42B0030B44E /* SF-Pro-Text-Bold.otf in Resources */,
 				9FA301B5216BB42B0030B44E /* SF-Pro-Text-SemiboldItalic.otf in Resources */,
 				9FA301B3216BB42B0030B44E /* SanFranciscoDisplay-Bold.otf in Resources */,
+				9F9838A2216FC51F00614483 /* nella kharisma .png in Resources */,
 				9FA301C0216BB42B0030B44E /* SF-Pro-Display-MediumItalic.otf in Resources */,
 				9FA301B9216BB42B0030B44E /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
 				9FA3019F216BB42B0030B44E /* SanFranciscoText-LightItalic.otf in Resources */,
@@ -1058,6 +1076,7 @@
 				9FA301A8216BB42B0030B44E /* SanFranciscoText-HeavyItalic.otf in Resources */,
 				9FA301BC216BB42B0030B44E /* SF-Pro-Display-BoldItalic.otf in Resources */,
 				9FA301BB216BB42B0030B44E /* SanFranciscoText-RegularItalic.otf in Resources */,
+				9F98389D216FBAF100614483 /* temporary.storyboard in Resources */,
 				9F4B53D7216C37F1000C97FF /* office.jpg in Resources */,
 				8AC85BF2217112C30096CA37 /* Inbox.storyboard in Resources */,
 				9F0BA76421656AFA001C3A4B /* draft.png in Resources */,
@@ -1305,6 +1324,7 @@
 				9F0BA86621656F2A001C3A4B /* Toaster+Function.swift in Sources */,
 				9F0BA82F21656E90001C3A4B /* Dictionary+QueryString.swift in Sources */,
 				9F0BA80921656E90001C3A4B /* UINavigationController+RemoveViewController.swift in Sources */,
+				9F9838A0216FBBDB00614483 /* ProfileVc.swift in Sources */,
 				9F0BA84B21656E90001C3A4B /* UIScreen+Size.swift in Sources */,
 				9F0BA81E21656E90001C3A4B /* UITextField+Padding.swift in Sources */,
 				8A2584E0216FB5E800A7485C /* EventsObj.swift in Sources */,
