@@ -566,5 +566,13 @@ class Util : NSObject {
 
     }
     
-    
+    static func showHamburger(currentVc: UIViewController){
+        let vc = UIViewController.instantiate(named: "HamburgerVc") as? HamburgerVc
+        vc?.view.frame = currentVc.view.bounds
+        let v = vc?.view
+        
+        UIApplication.shared.keyWindow?.addSubview(v!)
+        currentVc.addChildViewController(vc!)
+        currentVc.didMove(toParentViewController: currentVc)
+    }
 }

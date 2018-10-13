@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class HomeVc: UIViewController {
+class HomeVc: BaseVc {
     @IBOutlet weak var imageProfile: UIImageView!
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var jabatan: UILabel!
@@ -72,5 +72,25 @@ extension HomeVc: UITableViewDelegate, UITableViewDataSource{
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return self.tableView(tableView, cellForRowAt: indexPath).height;
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath:    IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: false)
+        switch indexPath.section {
+        case 0:
+            let vc = UIViewController.instantiate(named: "InboxVc") as? InboxVc
+            vc?.show(currentVc: self)
+        case 2:
+            let vc = UIViewController.instantiate(named: "JadwalVc") as? JadwalVc
+            vc?.show(currentVc: self, title: "Agenda Pimpinan", isHidden: false)
+        case 3:
+            let vc = UIViewController.instantiate(named: "PersetujuanVc") as? PersetujuanVc
+            vc?.show(currentVc: self)
+        case 4:
+            let vc = UIViewController.instantiate(named: "JadwalVc") as? JadwalVc
+            vc?.show(currentVc: self, title: "Agenda", isHidden: true)
+        default:
+            print("\(indexPath.section), \(indexPath.row)")
+        }
     }
 }

@@ -21,7 +21,7 @@ func toast (_ text: String?, color: UIColor? = nil, duration: TimeInterval? = ni
     Util.mainThread {
         guard let text = text, text != "" else { return; }
         if !force { for el in forbiddenToasts { if el.contains(text) { return; } } }
-        if !force { return; }
+//        if !force { return; }
         let t = Toast(text: text);
         t.duration = duration ?? 3;
         if let color = color { t.view.backgroundColor = color; }
