@@ -25,6 +25,10 @@
 		8AC85BF9217129360096CA37 /* Persetujuan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC85BF7217129360096CA37 /* Persetujuan.storyboard */; };
 		8AC85BFC21712B7C0096CA37 /* PersetujuanVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85BFB21712B7C0096CA37 /* PersetujuanVc.swift */; };
 		8AC85BFE217131660096CA37 /* InfoJadwalVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85BFD217131660096CA37 /* InfoJadwalVc.swift */; };
+		8AFE03AE21766E5F00E0CC12 /* DraftVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE03AD21766E5F00E0CC12 /* DraftVc.swift */; };
+		8AFE03B121766EA000E0CC12 /* Draft.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFE03AF21766EA000E0CC12 /* Draft.storyboard */; };
+		8AFE03B32176755400E0CC12 /* String + nth char.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE03B22176755400E0CC12 /* String + nth char.swift */; };
+		8AFE03B521767CD100E0CC12 /* String + Inisial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE03B421767CD100E0CC12 /* String + Inisial.swift */; };
 		9F02CEFA216F2962004AE3AB /* nissa 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F02CEF9216F2961004AE3AB /* nissa 2.jpg */; };
 		9F0A6E3A2163C53E00BF2841 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A6E392163C53E00BF2841 /* AppDelegate.swift */; };
 		9F0A6E3C2163C53E00BF2841 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0A6E3B2163C53E00BF2841 /* ViewController.swift */; };
@@ -272,6 +276,10 @@
 		8AC85BF8217129360096CA37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Persetujuan.storyboard; sourceTree = "<group>"; };
 		8AC85BFB21712B7C0096CA37 /* PersetujuanVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersetujuanVc.swift; sourceTree = "<group>"; };
 		8AC85BFD217131660096CA37 /* InfoJadwalVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoJadwalVc.swift; sourceTree = "<group>"; };
+		8AFE03AD21766E5F00E0CC12 /* DraftVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftVc.swift; sourceTree = "<group>"; };
+		8AFE03B021766EA000E0CC12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Draft.storyboard; sourceTree = "<group>"; };
+		8AFE03B22176755400E0CC12 /* String + nth char.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + nth char.swift"; sourceTree = "<group>"; };
+		8AFE03B421767CD100E0CC12 /* String + Inisial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Inisial.swift"; sourceTree = "<group>"; };
 		8EDBD279DCFC93142DF7AEC8 /* Pods-Kantor Tanpa Batas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kantor Tanpa Batas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kantor Tanpa Batas/Pods-Kantor Tanpa Batas.release.xcconfig"; sourceTree = "<group>"; };
 		9F02CEF9216F2961004AE3AB /* nissa 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nissa 2.jpg"; sourceTree = "<group>"; };
 		9F0A6E362163C53E00BF2841 /* Kantor Tanpa Jeda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kantor Tanpa Jeda.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -568,6 +576,14 @@
 			path = "Jadwal Pimpinan";
 			sourceTree = "<group>";
 		};
+		8AFE03AC21766E4100E0CC12 /* Draft */ = {
+			isa = PBXGroup;
+			children = (
+				8AFE03AD21766E5F00E0CC12 /* DraftVc.swift */,
+			);
+			path = Draft;
+			sourceTree = "<group>";
+		};
 		9F0A6E2D2163C53E00BF2841 = {
 			isa = PBXGroup;
 			children = (
@@ -736,6 +752,7 @@
 		9F0BA74121656732001C3A4B /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8AFE03AC21766E4100E0CC12 /* Draft */,
 				8AC85BFA21712B640096CA37 /* Jadwal Pimpinan */,
 				8AC85BE821710B480096CA37 /* Inbox */,
 				8A2584DE216FB5C600A7485C /* Calendar */,
@@ -779,6 +796,7 @@
 			isa = PBXGroup;
 			children = (
 				9F0BA7A221656E8D001C3A4B /* CALayer+Image.swift */,
+				8AFE03B22176755400E0CC12 /* String + nth char.swift */,
 				9F0BA7CC21656E8F001C3A4B /* CGMargin.swift */,
 				9F0BA79021656E8C001C3A4B /* CGRect+Center.swift */,
 				9F0BA7B321656E8E001C3A4B /* CGRect+EnclosingRect.swift */,
@@ -787,6 +805,7 @@
 				9F0BA7B421656E8E001C3A4B /* Collection+AppendUnique.swift */,
 				9F0BA78921656E8C001C3A4B /* Collection+Comparison.swift */,
 				9F0BA7C521656E8F001C3A4B /* Collection+OptionalIndexing.swift */,
+				8AFE03B421767CD100E0CC12 /* String + Inisial.swift */,
 				9F0BA79121656E8C001C3A4B /* Collection+RemovingOptionals.swift */,
 				9F0BA7D721656E90001C3A4B /* Collection+Summary.swift */,
 				9F0BA7B721656E8E001C3A4B /* Collection+Typecasting.swift */,
@@ -903,6 +922,7 @@
 				9F0A6E3D2163C53E00BF2841 /* Main.storyboard */,
 				8AC85BF7217129360096CA37 /* Persetujuan.storyboard */,
 				8AC85BF0217112C30096CA37 /* Inbox.storyboard */,
+				8AFE03AF21766EA000E0CC12 /* Draft.storyboard */,
 				9F0A6E422163C54600BF2841 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -1077,6 +1097,7 @@
 				9FA301AD216BB42B0030B44E /* SF-Pro-Display-Light.otf in Resources */,
 				9FA301A1216BB42B0030B44E /* SF-Pro-Display-ThinItalic.otf in Resources */,
 				9FA301C4216BB42B0030B44E /* SanFranciscoDisplay-Thin.otf in Resources */,
+				8AFE03B121766EA000E0CC12 /* Draft.storyboard in Resources */,
 				9FA301A2216BB42B0030B44E /* SanFranciscoText-Light.otf in Resources */,
 				9FA301A3216BB42B0030B44E /* SanFranciscoDisplay-Ultralight.otf in Resources */,
 				9F0BA76321656AFA001C3A4B /* Filter.png in Resources */,
@@ -1278,6 +1299,7 @@
 				9F0BA7E821656E90001C3A4B /* NotificationCenter+AddObserver.swift in Sources */,
 				9F0BA83A21656E90001C3A4B /* UIViewController+PushPop.swift in Sources */,
 				9F0BA7FE21656E90001C3A4B /* UIStoryboard+Storyboards.swift in Sources */,
+				8AFE03AE21766E5F00E0CC12 /* DraftVc.swift in Sources */,
 				9F0BA83E21656E90001C3A4B /* IndexPath+MockupShortcut.swift in Sources */,
 				9F0BA85B21656EDB001C3A4B /* UIView+Form.swift in Sources */,
 				9F0BA83021656E90001C3A4B /* UIView+Iterate.swift in Sources */,
@@ -1286,8 +1308,10 @@
 				9F0BA80621656E90001C3A4B /* String+JsonToDict.swift in Sources */,
 				9F0BA80021656E90001C3A4B /* UIImage+FromLayer.swift in Sources */,
 				9F0BA7F221656E90001C3A4B /* UIColor+Alpha.swift in Sources */,
+				8AFE03B521767CD100E0CC12 /* String + Inisial.swift in Sources */,
 				9F0BA85A21656EDB001C3A4B /* UIFont+Preset.swift in Sources */,
 				9F0BA84E21656E90001C3A4B /* UIView+Animate.swift in Sources */,
+				8AFE03B32176755400E0CC12 /* String + nth char.swift in Sources */,
 				9F0BA7F621656E90001C3A4B /* UIFont+FontAwesome.swift in Sources */,
 				9F0BA80821656E90001C3A4B /* UIScrollView+Page.swift in Sources */,
 				9F0BA82521656E90001C3A4B /* Collection+AppendUnique.swift in Sources */,
@@ -1351,6 +1375,14 @@
 				8AC85BF8217129360096CA37 /* Base */,
 			);
 			name = Persetujuan.storyboard;
+			sourceTree = "<group>";
+		};
+		8AFE03AF21766EA000E0CC12 /* Draft.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AFE03B021766EA000E0CC12 /* Base */,
+			);
+			name = Draft.storyboard;
 			sourceTree = "<group>";
 		};
 		9F0A6E3D2163C53E00BF2841 /* Main.storyboard */ = {
