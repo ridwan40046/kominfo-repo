@@ -562,7 +562,7 @@
         <image name="button arrow.png" width="512" height="512"/>
         <image name="cross.png" width="300" height="300"/>
         <image name="draft.png" width="40" height="40"/>
-        <image name="home active" width="25" height="21"/>
+        <image name="home active" width="25" height="25"/>
         <image name="home disable" width="25" height="25"/>
         <image name="inbox.png" width="40" height="40"/>
         <image name="informasi.png" width="40" height="40"/>

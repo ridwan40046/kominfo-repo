@@ -80,6 +80,9 @@ extension HomeVc: UITableViewDelegate, UITableViewDataSource{
         case 0:
             let vc = UIViewController.instantiate(named: "InboxVc") as? InboxVc
             vc?.show(currentVc: self)
+        case 1:
+            let vc = UIViewController.instantiate(named: "DraftVc") as? DraftVc
+            vc?.show(currentVc: self)
         case 2:
             let vc = UIViewController.instantiate(named: "JadwalVc") as? JadwalVc
             vc?.show(currentVc: self, title: "Agenda Pimpinan", isHidden: false)
