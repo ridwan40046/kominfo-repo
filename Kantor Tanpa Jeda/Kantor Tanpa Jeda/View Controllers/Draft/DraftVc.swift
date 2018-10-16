@@ -54,11 +54,38 @@ class DraftVc: BaseVc {
         print(c)
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.tabBarController?.tabBar.isHidden = true
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        self.tabBarController?.tabBar.isHidden = false
+        if #available(iOS 11.0, *) {
+            self.navigationController?.navigationBar.prefersLargeTitles = false
+        } else {
+            // Fallback on earlier versions
+        }
+    }
+    
+    override func setNavBar() {
+        super.setNavBar()
+        if #available(iOS 11.0, *) {
+            self.navigationController?.navigationBar.prefersLargeTitles = true
+        } else {
+            // Fallback on earlier versions
+        }
+        
+    }
+    
     var colorArr = [UIColor]() {
         didSet{
             tblView.reloadData()
         }
     }
+    
+    
 }
 
 extension DraftVc: UICollectionViewDataSource, UICollectionViewDelegate {
@@ -115,5 +142,8 @@ extension DraftVc: UITableViewDataSource, UITableViewDelegate {
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: false)
+    }
     
 }
