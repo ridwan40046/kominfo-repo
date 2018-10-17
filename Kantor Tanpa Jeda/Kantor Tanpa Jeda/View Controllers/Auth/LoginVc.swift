@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 
 class LoginVc: UIViewController {
     @IBOutlet weak var tfUsername: UITextField!
@@ -30,6 +31,16 @@ class LoginVc: UIViewController {
             UIApplication.shared.keyWindow?.rootViewController = viewController
         }
     }
+    @IBAction func btnRegisterTapped(_ sender: UIButton) {
+        let vc = UIViewController.instantiate(named: "DaftarVc") as? DaftarVc
+        vc?.show(currentVc: self)
+
+//        DispatchQueue.main.async {
+//            let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+//            let viewController = mainStoryboard.instantiateViewController(withIdentifier: "Testing") as! TestingDropdown
+//            UIApplication.shared.keyWindow?.rootViewController = viewController
+//        }
+    }
     
-    @IBOutlet weak var btnRegisterTapped: UIButton!
+  
 }

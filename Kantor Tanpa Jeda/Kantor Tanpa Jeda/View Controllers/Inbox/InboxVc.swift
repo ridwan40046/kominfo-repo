@@ -44,7 +44,7 @@ extension InboxVc: UITableViewDataSource, UITableViewDelegate {
         return 1
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10 + 1
+        return 2 + 1
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return self.tableView(tableView, cellForRowAt: indexPath).height
@@ -56,20 +56,36 @@ extension InboxVc: UITableViewDataSource, UITableViewDelegate {
         case (_, 0):
             let cell = tableView.cell("header")!
             cell.Label(1).text = "Senin"
-            cell.Label(2).text = "July 26 2018"
+            cell.Label(2).text = "08 October 2018"
             return cell
-        case(0, _):
+        case(0, 1):
             let cell = tableView.cell("message")!
             let photo = cell.Label(1)
-            photo.text = "SP"
+            photo.text = "U"
             photo.makeRounded()
-            photo.backgroundColor = UIColor.getRandomColor()
+            photo.backgroundColor = UIColor.orange
 
             let nama = cell.Label(2)
-            nama.text = "Samuel Peterson"
+            nama.text = "Arif Purwadi,S.Sos"
 
 //            let pesan = cell.Label(3)
 //            let jam = cell.Label(4)
+            let dispo = cell.Label(5)
+            dispo.isHidden = true
+            dispo.makeRoundedRect(withCornerRadius: 5)
+            return cell
+        case(0, 2):
+            let cell = tableView.cell("message")!
+            let photo = cell.Label(1)
+            photo.text = "SM"
+            photo.makeRounded()
+            photo.backgroundColor = UIColor.red
+            
+            let nama = cell.Label(2)
+            nama.text = "Undangan Workshop"
+            
+            //            let pesan = cell.Label(3)
+            //            let jam = cell.Label(4)
             let dispo = cell.Label(5)
             dispo.makeRoundedRect(withCornerRadius: 5)
             return cell
