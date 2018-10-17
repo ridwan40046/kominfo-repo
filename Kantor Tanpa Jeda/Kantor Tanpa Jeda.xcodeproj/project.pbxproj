@@ -178,11 +178,16 @@
 		9F47D51F216B35CA00FAF37E /* Username.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F47D51D216B35C900FAF37E /* Username.png */; };
 		9F47D520216B35CA00FAF37E /* Password.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F47D51E216B35CA00FAF37E /* Password.png */; };
 		9F4B53D7216C37F1000C97FF /* office.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F4B53D6216C37F1000C97FF /* office.jpg */; };
+		9F502F2C21757308007E3FF1 /* LogoutVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F502F2B21757308007E3FF1 /* LogoutVc.swift */; };
+		9F5FECC32171A75400145069 /* hambuegr menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5FECC22171A75300145069 /* hambuegr menu.png */; };
+		9F5FECC52171A79E00145069 /* hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5FECC42171A79E00145069 /* hamburger.png */; };
+		9F5FECC72171C9BE00145069 /* Artboard 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5FECC62171C9BE00145069 /* Artboard 3.png */; };
+		9F5FECC92171DD8900145069 /* DaftarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5FECC82171DD8900145069 /* DaftarVc.swift */; };
 		9F7E52A9216EF190004A27C9 /* HomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E52A8216EF190004A27C9 /* HomeVc.swift */; };
-		9F7E52AD216F06C8004A27C9 /* hambuegr menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F7E52AC216F06C7004A27C9 /* hambuegr menu.png */; };
 		9F98389D216FBAF100614483 /* temporary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F98389C216FBAF100614483 /* temporary.storyboard */; };
 		9F9838A0216FBBDB00614483 /* ProfileVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F98389F216FBBDB00614483 /* ProfileVc.swift */; };
 		9F9838A2216FC51F00614483 /* nella kharisma .png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9838A1216FC51E00614483 /* nella kharisma .png */; };
+		9F99FF5921763AEB0009CDC6 /* unnamed (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 9F99FF5821763AEA0009CDC6 /* unnamed (2).png */; };
 		9FA30150216BB0930030B44E /* LoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA3014F216BB0930030B44E /* LoginVc.swift */; };
 		9FA3015F216BB4160030B44E /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA30155216BB4140030B44E /* OpenSans-ExtraBold.ttf */; };
 		9FA30160216BB4160030B44E /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA30156216BB4140030B44E /* OpenSans-Bold.ttf */; };
@@ -245,7 +250,8 @@
 		9FA301CC216BB42B0030B44E /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA30199216BB42B0030B44E /* SF-Pro-Display-Bold.otf */; };
 		9FA301CD216BB42B0030B44E /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA3019A216BB42B0030B44E /* SF-Pro-Display-Black.otf */; };
 		9FA301CE216BB42B0030B44E /* SanFranciscoDisplay-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA3019B216BB42B0030B44E /* SanFranciscoDisplay-Light.otf */; };
-		9FA301D0216BCBF20030B44E /* RegisterVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA301CF216BCBF20030B44E /* RegisterVc.swift */; };
+		9FB88CF22176CCE100457F31 /* NavigationVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB88CF12176CCE100457F31 /* NavigationVc.swift */; };
+		9FC1CF132174F826000B6BF2 /* TestingDropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1CF122174F826000B6BF2 /* TestingDropdown.swift */; };
 		9FE29676216D6575008F13C1 /* TabBarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE29675216D6575008F13C1 /* TabBarVc.swift */; };
 		9FE2967C216D6B82008F13C1 /* akun saya disable.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE29677216D6B7F008F13C1 /* akun saya disable.png */; };
 		9FE2967D216D6B82008F13C1 /* akun saya active.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE29678216D6B80008F13C1 /* akun saya active.png */; };
@@ -438,11 +444,16 @@
 		9F47D51D216B35C900FAF37E /* Username.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Username.png; sourceTree = "<group>"; };
 		9F47D51E216B35CA00FAF37E /* Password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Password.png; sourceTree = "<group>"; };
 		9F4B53D6216C37F1000C97FF /* office.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = office.jpg; sourceTree = "<group>"; };
+		9F502F2B21757308007E3FF1 /* LogoutVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutVc.swift; sourceTree = "<group>"; };
+		9F5FECC22171A75300145069 /* hambuegr menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hambuegr menu.png"; sourceTree = "<group>"; };
+		9F5FECC42171A79E00145069 /* hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburger.png; sourceTree = "<group>"; };
+		9F5FECC62171C9BE00145069 /* Artboard 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 3.png"; sourceTree = "<group>"; };
+		9F5FECC82171DD8900145069 /* DaftarVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaftarVc.swift; sourceTree = "<group>"; };
 		9F7E52A8216EF190004A27C9 /* HomeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVc.swift; sourceTree = "<group>"; };
-		9F7E52AC216F06C7004A27C9 /* hambuegr menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hambuegr menu.png"; sourceTree = "<group>"; };
 		9F98389C216FBAF100614483 /* temporary.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = temporary.storyboard; sourceTree = "<group>"; };
 		9F98389F216FBBDB00614483 /* ProfileVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVc.swift; sourceTree = "<group>"; };
 		9F9838A1216FC51E00614483 /* nella kharisma .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nella kharisma .png"; sourceTree = "<group>"; };
+		9F99FF5821763AEA0009CDC6 /* unnamed (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unnamed (2).png"; sourceTree = "<group>"; };
 		9FA3014F216BB0930030B44E /* LoginVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVc.swift; sourceTree = "<group>"; };
 		9FA30155216BB4140030B44E /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBold.ttf"; path = "open sans/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		9FA30156216BB4140030B44E /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "open sans/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
@@ -505,7 +516,8 @@
 		9FA30199216BB42B0030B44E /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Bold.otf"; path = "sf/SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
 		9FA3019A216BB42B0030B44E /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Black.otf"; path = "sf/SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
 		9FA3019B216BB42B0030B44E /* SanFranciscoDisplay-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SanFranciscoDisplay-Light.otf"; path = "sf/SanFranciscoDisplay-Light.otf"; sourceTree = "<group>"; };
-		9FA301CF216BCBF20030B44E /* RegisterVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVc.swift; sourceTree = "<group>"; };
+		9FB88CF12176CCE100457F31 /* NavigationVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVc.swift; sourceTree = "<group>"; };
+		9FC1CF122174F826000B6BF2 /* TestingDropdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingDropdown.swift; sourceTree = "<group>"; };
 		9FE29675216D6575008F13C1 /* TabBarVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVc.swift; sourceTree = "<group>"; };
 		9FE29677216D6B7F008F13C1 /* akun saya disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "akun saya disable.png"; sourceTree = "<group>"; };
 		9FE29678216D6B80008F13C1 /* akun saya active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "akun saya active.png"; sourceTree = "<group>"; };
@@ -681,9 +693,11 @@
 		9F0BA73E216566E2001C3A4B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9F99FF5821763AEA0009CDC6 /* unnamed (2).png */,
+				9F5FECC42171A79E00145069 /* hamburger.png */,
 				9F02CEF9216F2961004AE3AB /* nissa 2.jpg */,
-				9F7E52AC216F06C7004A27C9 /* hamburger.png */,
 				9F0BA74821656AF3001C3A4B /* add jadwal.png */,
+				9F5FECC62171C9BE00145069 /* Artboard 3.png */,
 				8A482ACC2170E863007BE6BD /* arrowDown.png */,
 				9F0BA75621656AF9001C3A4B /* Add.png */,
 				9F0BA74A21656AF4001C3A4B /* agenda.png */,
@@ -699,6 +713,7 @@
 				9F0BA75021656AF7001C3A4B /* Filter.png */,
 				9FE2967A216D6B81008F13C1 /* home active.png */,
 				9FE29679216D6B80008F13C1 /* home disable.png */,
+				9F5FECC22171A75300145069 /* hambuegr menu.png */,
 				9F0BA74F21656AF6001C3A4B /* inbox.png */,
 				9F0BA74D21656AF5001C3A4B /* informasi.png */,
 				9F0BA75421656AF8001C3A4B /* jadwal pimpinan.png */,
@@ -752,6 +767,7 @@
 				9F0A6E392163C53E00BF2841 /* AppDelegate.swift */,
 				8A2584E7216FBD2000A7485C /* Shared */,
 				9F0A6E3B2163C53E00BF2841 /* ViewController.swift */,
+				9FB88CF12176CCE100457F31 /* NavigationVc.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -945,8 +961,10 @@
 			isa = PBXGroup;
 			children = (
 				9FA3014F216BB0930030B44E /* LoginVc.swift */,
-				9FA301CF216BCBF20030B44E /* RegisterVc.swift */,
 				9FE29675216D6575008F13C1 /* TabBarVc.swift */,
+				9F5FECC82171DD8900145069 /* DaftarVc.swift */,
+				9FC1CF122174F826000B6BF2 /* TestingDropdown.swift */,
+				9F502F2B21757308007E3FF1 /* LogoutVc.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -1029,6 +1047,7 @@
 				9F9838A2216FC51F00614483 /* nella kharisma .png in Resources */,
 				9FA301C0216BB42B0030B44E /* SF-Pro-Display-MediumItalic.otf in Resources */,
 				9FA301B9216BB42B0030B44E /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
+				9F5FECC52171A79E00145069 /* hamburger.png in Resources */,
 				9FA3019F216BB42B0030B44E /* SanFranciscoText-LightItalic.otf in Resources */,
 				9FA301BE216BB42B0030B44E /* SF-Pro-Text-Regular.otf in Resources */,
 				9FA301A0216BB42B0030B44E /* SF-Pro-Display-LightItalic.otf in Resources */,
@@ -1036,7 +1055,6 @@
 				8A2584E6216FBB9500A7485C /* cross.png in Resources */,
 				9F0BA76621656AFA001C3A4B /* Edit.png in Resources */,
 				9F47D520216B35CA00FAF37E /* Password.png in Resources */,
-				9F7E52AD216F06C8004A27C9 /* hamburger.png in Resources */,
 				9FA301AE216BB42B0030B44E /* SF-Pro-Text-Semibold.otf in Resources */,
 				9FA3019C216BB42B0030B44E /* SF-Pro-Display-Ultralight.otf in Resources */,
 				9F0BA75B21656AFA001C3A4B /* add jadwal.png in Resources */,
@@ -1044,6 +1062,7 @@
 				9FA30166216BB4160030B44E /* OpenSans-LightItalic.ttf in Resources */,
 				9FA301AA216BB42B0030B44E /* SanFranciscoDisplay-Black.otf in Resources */,
 				9FA301A4216BB42B0030B44E /* SanFranciscoText-MediumItalic.otf in Resources */,
+				9F5FECC32171A75400145069 /* hambuegr menu.png in Resources */,
 				9F0BA76021656AFA001C3A4B /* informasi.png in Resources */,
 				9F0BA76821656AFA001C3A4B /* thumb up.png in Resources */,
 				9F0BA76C21656AFA001C3A4B /* persetujuan jadwal pimpinan.png in Resources */,
@@ -1082,6 +1101,7 @@
 				9F0BA76421656AFA001C3A4B /* draft.png in Resources */,
 				9FA301CA216BB42B0030B44E /* SF-Pro-Text-LightItalic.otf in Resources */,
 				9FA301BF216BB42B0030B44E /* SanFranciscoText-Semibold.otf in Resources */,
+				9F5FECC72171C9BE00145069 /* Artboard 3.png in Resources */,
 				9FA30165216BB4160030B44E /* OpenSans-SemiBold.ttf in Resources */,
 				9F02CEFA216F2962004AE3AB /* nissa 2.jpg in Resources */,
 				9FA301A6216BB42B0030B44E /* SanFranciscoText-Medium.otf in Resources */,
@@ -1089,6 +1109,7 @@
 				9FA301B0216BB42B0030B44E /* SanFranciscoText-Bold.otf in Resources */,
 				9FA301AB216BB42B0030B44E /* SF-Pro-Text-Light.otf in Resources */,
 				9F0BA76921656AFA001C3A4B /* Add.png in Resources */,
+				9F99FF5921763AEB0009CDC6 /* unnamed (2).png in Resources */,
 				9FE2967C216D6B82008F13C1 /* akun saya disable.png in Resources */,
 				9F0BA75C21656AFA001C3A4B /* pic edit.png in Resources */,
 				9FA301BD216BB42B0030B44E /* SF-Pro-Text-MediumItalic.otf in Resources */,
@@ -1139,6 +1160,7 @@
 				"${BUILT_PRODUCTS_DIR}/AMPopTip/AMPopTip.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CalendarLib/CalendarLib.framework",
+				"${BUILT_PRODUCTS_DIR}/Dropdowns/Dropdowns.framework",
 				"${BUILT_PRODUCTS_DIR}/GSImageViewerController/GSImageViewerController.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
@@ -1146,6 +1168,7 @@
 				"${BUILT_PRODUCTS_DIR}/OrderedDictionary/OrderedDictionary.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
+				"${BUILT_PRODUCTS_DIR}/SmileLock/SmileLock.framework",
 				"${BUILT_PRODUCTS_DIR}/SteviaLayout/Stevia.framework",
 				"${BUILT_PRODUCTS_DIR}/Toaster/Toaster.framework",
 				"${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework",
@@ -1157,6 +1180,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AMPopTip.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CalendarLib.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Dropdowns.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSImageViewerController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
@@ -1164,6 +1188,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OrderedDictionary.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SmileLock.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stevia.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toaster.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextView_Placeholder.framework",
@@ -1215,6 +1240,7 @@
 				9F0BA82721656E90001C3A4B /* UIViewController+NavigationBar.swift in Sources */,
 				9F0BA81C21656E90001C3A4B /* UITextView+HeightToFit.swift in Sources */,
 				8AC85BF421711FA60096CA37 /* InboxDetailVc.swift in Sources */,
+				9F5FECC92171DD8900145069 /* DaftarVc.swift in Sources */,
 				9F0BA7F421656E90001C3A4B /* UIView+Positioning.swift in Sources */,
 				9F0BA7F321656E90001C3A4B /* String+Trim.swift in Sources */,
 				8AC85BEF21710D130096CA37 /* UIColor + random.swift in Sources */,
@@ -1253,12 +1279,13 @@
 				9F0BA86421656F2A001C3A4B /* Reachability+Function.swift in Sources */,
 				9F0BA7F921656E90001C3A4B /* Date+String.swift in Sources */,
 				9F0BA81D21656E90001C3A4B /* Date+Offset.swift in Sources */,
+				9F502F2C21757308007E3FF1 /* LogoutVc.swift in Sources */,
 				9F0BA7E621656E90001C3A4B /* UIView+MirrorLayout.swift in Sources */,
 				9F0BA7FC21656E90001C3A4B /* UIImageView+Tint.swift in Sources */,
 				9F0BA7FF21656E90001C3A4B /* VerticalLayouter.swift in Sources */,
 				9F0BA80A21656E90001C3A4B /* UILabel+Lines.swift in Sources */,
 				9F0BA81621656E90001C3A4B /* UIColor+Hex.swift in Sources */,
-				9FA301D0216BCBF20030B44E /* RegisterVc.swift in Sources */,
+				9FC1CF132174F826000B6BF2 /* TestingDropdown.swift in Sources */,
 				9F0BA7E721656E90001C3A4B /* String+Validation.swift in Sources */,
 				9FE29676216D6575008F13C1 /* TabBarVc.swift in Sources */,
 				9F0BA85621656EDB001C3A4B /* CGFloat+Stars.swift in Sources */,
@@ -1278,6 +1305,7 @@
 				9F0BA81421656E90001C3A4B /* String+Indexing.swift in Sources */,
 				9F0BA82E21656E90001C3A4B /* LazyMapConnection+ToArray.swift in Sources */,
 				9F0BA84621656E90001C3A4B /* UIImage+Resize.swift in Sources */,
+				9FB88CF22176CCE100457F31 /* NavigationVc.swift in Sources */,
 				9F0BA85721656EDB001C3A4B /* BaseViewController+MagicKeyboard.swift in Sources */,
 				9F0BA84321656E90001C3A4B /* String+CutOff.swift in Sources */,
 				9F0BA7FB21656E90001C3A4B /* String+CapitalizeFirstLetter.swift in Sources */,
@@ -1510,16 +1538,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 114861D63B0D417291E9022A /* Pods-Kantor Tanpa Jeda.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3QEVR7HRDU;
+				DEVELOPMENT_TEAM = 95RU33M5V7;
 				INFOPLIST_FILE = "$(SRCROOT)/Kantor Tanpa Jeda/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = id.go.kominfo.smartoffice;
+				PRODUCT_BUNDLE_IDENTIFIER = id.kominfo.smartoffice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1530,16 +1558,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DAE898C23CF6C6C758A6E976 /* Pods-Kantor Tanpa Jeda.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3QEVR7HRDU;
+				DEVELOPMENT_TEAM = 95RU33M5V7;
 				INFOPLIST_FILE = "$(SRCROOT)/Kantor Tanpa Jeda/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = id.go.kominfo.smartoffice;
+				PRODUCT_BUNDLE_IDENTIFIER = id.kominfo.smartoffice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

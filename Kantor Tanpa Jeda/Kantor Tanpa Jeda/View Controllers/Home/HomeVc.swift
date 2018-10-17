@@ -14,13 +14,14 @@ class HomeVc: BaseVc {
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var jabatan: UILabel!
     @IBOutlet weak var tv: UITableView!
+    @IBOutlet weak var lblView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         menu()
         self.navigationItem.title = "Kantor Tanpa Jeda"
         imageProfile.makeRounded()
-        
+  
     }
     
 }
@@ -50,6 +51,12 @@ extension HomeVc: UITableViewDelegate, UITableViewDataSource{
         switch indexPath.section {
         case 0:
             let cell = tableView.cell("0-0")
+            let lblView = cell?.view(1)
+            let label = cell?.label(2)
+            label?.text = "2"
+            lblView?.makeRounded()
+            lblView?.layer.borderWidth = 1
+            lblView?.layer.borderColor = UIColor.white.cgColor
             return cell!
         case 1:
             let cell = tableView.cell("1-0")
@@ -80,6 +87,7 @@ extension HomeVc: UITableViewDelegate, UITableViewDataSource{
         case 0:
             let vc = UIViewController.instantiate(named: "InboxVc") as? InboxVc
             vc?.show(currentVc: self)
+        case 1: toastUser("Fitur ini masih dalam pengembangan");
         case 2:
             let vc = UIViewController.instantiate(named: "JadwalVc") as? JadwalVc
             vc?.show(currentVc: self, title: "Agenda Pimpinan", isHidden: false)
@@ -89,6 +97,8 @@ extension HomeVc: UITableViewDelegate, UITableViewDataSource{
         case 4:
             let vc = UIViewController.instantiate(named: "JadwalVc") as? JadwalVc
             vc?.show(currentVc: self, title: "Agenda", isHidden: true)
+        case 5: toastUser("Fitur ini masih dalam pengembangan");
+            
         default:
             print("\(indexPath.section), \(indexPath.row)")
         }

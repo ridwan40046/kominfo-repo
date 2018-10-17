@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProfileVc: UIViewController {
+class ProfileVc: BaseVc {
 
     @IBOutlet weak var jabatan: UILabel!
     @IBOutlet weak var imgProfile: UIImageView!
@@ -21,6 +21,18 @@ class ProfileVc: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    @IBAction func edit(){
+        
+    }
+    override func setNavBar() {
+        let btnKanan = UIBarButtonItem(image: UIImage(named: "hamburger.png")?.resize(20, 20), style: .done, target: self, action: #selector(edit))
+        
+        let btnEdit = UIBarButtonItem(image: UIImage(named: "Edit.png")?.resize(18, 18), style: .done, target: self, action: #selector(edit))
+        self.navigationItem.setRightBarButtonItems([btnKanan,btnEdit], animated: false)
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
     }
     @IBAction func btnStatusTapped(_ sender: Any) {
     }
@@ -41,14 +53,14 @@ extension ProfileVc: UITableViewDelegate, UITableViewDataSource {
             let title = cell?.label(1)
             let isi = cell?.label(2)
             title?.text = "Jenis Kelamin"
-            isi?.text = "Perempuan"
+            isi?.text = "Laki - Laki"
             return cell!
         case 1:
             let cell = tableView.cell()
             let title = cell?.label(1)
             let isi = cell?.label(2)
             title?.text = "Status Pegawai"
-            isi?.text = "PNS - Pegawai Negeri Sipil"
+            isi?.text = "Pegawai Negeri Sipil"
             return cell!
         case 2:
             let cell = tableView.cell()
@@ -76,7 +88,7 @@ extension ProfileVc: UITableViewDelegate, UITableViewDataSource {
             let title = cell?.label(1)
             let isi = cell?.label(2)
             title?.text = "Alamat"
-            isi?.text = "Jl Surabaya"
+            isi?.text = "Jl.Celebration Boulevard Blok AA 09 No 10 - Grand Wisata Bekasi "
             return cell!
         case 6:
             let cell = tableView.cell()

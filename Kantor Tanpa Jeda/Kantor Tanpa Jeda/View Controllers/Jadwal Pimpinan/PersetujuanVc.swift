@@ -38,7 +38,7 @@ class PersetujuanVc: BaseVc {
 
 extension PersetujuanVc: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return 1
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return self.tableView(tableView, cellForRowAt: indexPath).height
