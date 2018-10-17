@@ -12,6 +12,9 @@ import CalendarLib
 class ListEventVc: BaseVc {
     @IBOutlet weak var dayPlannerView: MGCDayPlannerView!
     
+    @IBOutlet var viewHeader: UIView!
+    var lblTitle = UILabel()
+    var selectedMonth = ""
     var events = [EventObj]()
     var date: Date?
     var currentVc: UIViewController?
@@ -64,10 +67,50 @@ class ListEventVc: BaseVc {
         currentVc.navigationController?.pushViewController(self, animated: true)
     }
     
+    @IBAction func btnOKTapped(_ sender: UIButton) {
+        lblTitle.text = selectedMonth
+        viewPicker.removeFromSuperview()
+    }
+    
+    @IBOutlet var viewPicker: UIView!
+    @IBAction func btnHeaderTapped(_ sender: UIButton) {
+        let vPicker = self.viewPicker
+        vPicker?.frame = CGRect(x: 0, y: 66, width: UIScreen.main.bounds.width, height: 200)
+        viewPicker.bottom = UIScreen.main.bounds.height
+        self.view.addSubview(vPicker!)
+        
+        let solidView = vPicker?.View(200)
+        let containerV = solidView?.View(201)
+        let mp = MonthYearPickerView()
+        mp.backgroundColor = .white
+        mp.frame = containerV!.layer.bounds
+        containerV?.addSubview(mp)
+        mp.months = arrBulan
+        
+        mp.onDateSelected = {(month: Int, year: Int) in
+            let string = String(format: "%02d/%d", month, year)
+            print(string) // should show something like 05/2015
+            self.selectedMonth = "\(arrBulan[month-1]) \(year)"
+        }
+    }
+    
+    
+    @IBAction func btnCancelTapped(_ sender: UIButton) {
+        viewPicker.removeFromSuperview()
+    }
+    
     override func setNavBar(){
-        self.title = "Oktober 2018"
+        let vHeader = viewHeader
+        vHeader?.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width * 0.5, height: 44)
+        lblTitle = vHeader!.Label(111)
+        lblTitle.text = "Oktober 2018"
+        
+        self.navigationItem.titleView = vHeader
+        
+        
         let back = UIBarButtonItem()
         back.title = "Kembali"
+        
         currentVc?.navigationItem.backBarButtonItem = back
         let btnKanan = UIBarButtonItem(image: UIImage(named: "hamburger.png")?.resize(20, 20), style: .done, target: self, action: #selector(hamburger))
         

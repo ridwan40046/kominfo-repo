@@ -18,6 +18,10 @@
 		8A482ACD2170E863007BE6BD /* arrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A482ACC2170E863007BE6BD /* arrowDown.png */; };
 		8A482ACF2170EB86007BE6BD /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A482ACE2170EB86007BE6BD /* share.png */; };
 		8A482AD12170F04B007BE6BD /* NewAgendaVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A482AD02170F04B007BE6BD /* NewAgendaVc.swift */; };
+		8AB94FF42177711D00EBFA12 /* arrowDownClear.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AB94FF32177711D00EBFA12 /* arrowDownClear.png */; };
+		8AB94FF62177789800EBFA12 /* Month Year picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB94FF52177789800EBFA12 /* Month Year picker.swift */; };
+		8AB94FF7217780D000EBFA12 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0BA86D21656FDF001C3A4B /* Aliases.swift */; };
+		8AB94FF921778AD400EBFA12 /* LaporanVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB94FF821778AD400EBFA12 /* LaporanVc.swift */; };
 		8AC85BED21710BAB0096CA37 /* InboxVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85BEC21710BAB0096CA37 /* InboxVc.swift */; };
 		8AC85BEF21710D130096CA37 /* UIColor + random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85BEE21710D130096CA37 /* UIColor + random.swift */; };
 		8AC85BF2217112C30096CA37 /* Inbox.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC85BF0217112C30096CA37 /* Inbox.storyboard */; };
@@ -185,7 +189,6 @@
 		9F4B53D7216C37F1000C97FF /* office.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F4B53D6216C37F1000C97FF /* office.jpg */; };
 		9F502F2C21757308007E3FF1 /* LogoutVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F502F2B21757308007E3FF1 /* LogoutVc.swift */; };
 		9F5FECC32171A75400145069 /* hambuegr menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5FECC22171A75300145069 /* hambuegr menu.png */; };
-		9F5FECC52171A79E00145069 /* hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5FECC42171A79E00145069 /* hamburger.png */; };
 		9F5FECC72171C9BE00145069 /* Artboard 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5FECC62171C9BE00145069 /* Artboard 3.png */; };
 		9F5FECC92171DD8900145069 /* DaftarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5FECC82171DD8900145069 /* DaftarVc.swift */; };
 		9F7E52A9216EF190004A27C9 /* HomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E52A8216EF190004A27C9 /* HomeVc.swift */; };
@@ -279,6 +282,9 @@
 		8A482ACC2170E863007BE6BD /* arrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowDown.png; sourceTree = "<group>"; };
 		8A482ACE2170EB86007BE6BD /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
 		8A482AD02170F04B007BE6BD /* NewAgendaVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAgendaVc.swift; sourceTree = "<group>"; };
+		8AB94FF32177711D00EBFA12 /* arrowDownClear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowDownClear.png; sourceTree = "<group>"; };
+		8AB94FF52177789800EBFA12 /* Month Year picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Month Year picker.swift"; sourceTree = "<group>"; };
+		8AB94FF821778AD400EBFA12 /* LaporanVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaporanVc.swift; sourceTree = "<group>"; };
 		8AC85BEC21710BAB0096CA37 /* InboxVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxVc.swift; sourceTree = "<group>"; };
 		8AC85BEE21710D130096CA37 /* UIColor + random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + random.swift"; sourceTree = "<group>"; };
 		8AC85BF1217112C30096CA37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Inbox.storyboard; sourceTree = "<group>"; };
@@ -456,7 +462,6 @@
 		9F4B53D6216C37F1000C97FF /* office.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = office.jpg; sourceTree = "<group>"; };
 		9F502F2B21757308007E3FF1 /* LogoutVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutVc.swift; sourceTree = "<group>"; };
 		9F5FECC22171A75300145069 /* hambuegr menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hambuegr menu.png"; sourceTree = "<group>"; };
-		9F5FECC42171A79E00145069 /* hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburger.png; sourceTree = "<group>"; };
 		9F5FECC62171C9BE00145069 /* Artboard 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 3.png"; sourceTree = "<group>"; };
 		9F5FECC82171DD8900145069 /* DaftarVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaftarVc.swift; sourceTree = "<group>"; };
 		9F7E52A8216EF190004A27C9 /* HomeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVc.swift; sourceTree = "<group>"; };
@@ -583,6 +588,7 @@
 			children = (
 				8AC85BEC21710BAB0096CA37 /* InboxVc.swift */,
 				8AC85BF321711FA60096CA37 /* InboxDetailVc.swift */,
+				8AB94FF821778AD400EBFA12 /* LaporanVc.swift */,
 			);
 			path = Inbox;
 			sourceTree = "<group>";
@@ -712,8 +718,8 @@
 			isa = PBXGroup;
 			children = (
 				9F99FF5821763AEA0009CDC6 /* unnamed (2).png */,
-				9F5FECC42171A79E00145069 /* hamburger.png */,
 				9F02CEF9216F2961004AE3AB /* nissa 2.jpg */,
+				8AB94FF32177711D00EBFA12 /* arrowDownClear.png */,
 				9F0BA74821656AF3001C3A4B /* add jadwal.png */,
 				9F5FECC62171C9BE00145069 /* Artboard 3.png */,
 				8A482ACC2170E863007BE6BD /* arrowDown.png */,
@@ -825,6 +831,7 @@
 				9F0BA7A221656E8D001C3A4B /* CALayer+Image.swift */,
 				8AFE03B22176755400E0CC12 /* String + nth char.swift */,
 				9F0BA7CC21656E8F001C3A4B /* CGMargin.swift */,
+				8AB94FF52177789800EBFA12 /* Month Year picker.swift */,
 				9F0BA79021656E8C001C3A4B /* CGRect+Center.swift */,
 				9F0BA7B321656E8E001C3A4B /* CGRect+EnclosingRect.swift */,
 				9F0BA77E21656E8B001C3A4B /* CGRect+MaxSize.swift */,
@@ -1092,6 +1099,7 @@
 				9FA301CE216BB42B0030B44E /* SanFranciscoDisplay-Light.otf in Resources */,
 				9FA301B1216BB42B0030B44E /* SF-Pro-Display-RegularItalic.otf in Resources */,
 				9FE2967D216D6B82008F13C1 /* akun saya active.png in Resources */,
+				8AB94FF42177711D00EBFA12 /* arrowDownClear.png in Resources */,
 				9FA301C9216BB42B0030B44E /* SF-Pro-Display-Medium.otf in Resources */,
 				9FA301C5216BB42B0030B44E /* SanFranciscoDisplay-Medium.otf in Resources */,
 				9F0BA75D21656AFA001C3A4B /* agenda.png in Resources */,
@@ -1308,6 +1316,7 @@
 				9F0BA7FC21656E90001C3A4B /* UIImageView+Tint.swift in Sources */,
 				9F0BA7FF21656E90001C3A4B /* VerticalLayouter.swift in Sources */,
 				9F0BA80A21656E90001C3A4B /* UILabel+Lines.swift in Sources */,
+				8AB94FF62177789800EBFA12 /* Month Year picker.swift in Sources */,
 				9F0BA81621656E90001C3A4B /* UIColor+Hex.swift in Sources */,
 				9FC1CF132174F826000B6BF2 /* TestingDropdown.swift in Sources */,
 				9F0BA7E721656E90001C3A4B /* String+Validation.swift in Sources */,
@@ -1359,6 +1368,7 @@
 				9F0BA80021656E90001C3A4B /* UIImage+FromLayer.swift in Sources */,
 				9F0BA7F221656E90001C3A4B /* UIColor+Alpha.swift in Sources */,
 				8AFE03B521767CD100E0CC12 /* String + Inisial.swift in Sources */,
+				8AB94FF7217780D000EBFA12 /* Aliases.swift in Sources */,
 				9F0BA85A21656EDB001C3A4B /* UIFont+Preset.swift in Sources */,
 				9F0BA84E21656E90001C3A4B /* UIView+Animate.swift in Sources */,
 				8AFE03B32176755400E0CC12 /* String + nth char.swift in Sources */,
@@ -1375,6 +1385,7 @@
 				9F0BA81221656E90001C3A4B /* UIView+IsVisible.swift in Sources */,
 				9F0BA7E521656E90001C3A4B /* Dictionary+Comparison.swift in Sources */,
 				9F0BA86521656F2A001C3A4B /* AMPopTip+Function.swift in Sources */,
+				8AB94FF921778AD400EBFA12 /* LaporanVc.swift in Sources */,
 				9F0BA82421656E90001C3A4B /* CGRect+EnclosingRect.swift in Sources */,
 				9F0BA86621656F2A001C3A4B /* Toaster+Function.swift in Sources */,
 				9F0BA82F21656E90001C3A4B /* Dictionary+QueryString.swift in Sources */,
