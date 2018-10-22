@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0397CD516FF4CA25A7DD983A /* Pods_Kantor_Tanpa_Jeda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61761DAFDB7F5FBD36A3FC24 /* Pods_Kantor_Tanpa_Jeda.framework */; };
+		8A1AA271217E216100C454C6 /* DisposisiVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1AA270217E216100C454C6 /* DisposisiVc.swift */; };
 		8A2584D9216FB59500A7485C /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2584D7216FB59500A7485C /* Calendar.storyboard */; };
 		8A2584DC216FB5BB00A7485C /* ListEventVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2584DA216FB5BB00A7485C /* ListEventVc.swift */; };
 		8A2584DD216FB5BB00A7485C /* JadwalVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2584DB216FB5BB00A7485C /* JadwalVc.swift */; };
@@ -22,6 +23,7 @@
 		8AB94FF62177789800EBFA12 /* Month Year picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB94FF52177789800EBFA12 /* Month Year picker.swift */; };
 		8AB94FF7217780D000EBFA12 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0BA86D21656FDF001C3A4B /* Aliases.swift */; };
 		8AB94FF921778AD400EBFA12 /* LaporanVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB94FF821778AD400EBFA12 /* LaporanVc.swift */; };
+		8AC454EB217E32B100BE48A6 /* KepadaVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC454EA217E32B100BE48A6 /* KepadaVc.swift */; };
 		8AC85BED21710BAB0096CA37 /* InboxVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85BEC21710BAB0096CA37 /* InboxVc.swift */; };
 		8AC85BEF21710D130096CA37 /* UIColor + random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85BEE21710D130096CA37 /* UIColor + random.swift */; };
 		8AC85BF2217112C30096CA37 /* Inbox.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC85BF0217112C30096CA37 /* Inbox.storyboard */; };
@@ -272,6 +274,7 @@
 		114861D63B0D417291E9022A /* Pods-Kantor Tanpa Jeda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kantor Tanpa Jeda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kantor Tanpa Jeda/Pods-Kantor Tanpa Jeda.debug.xcconfig"; sourceTree = "<group>"; };
 		61761DAFDB7F5FBD36A3FC24 /* Pods_Kantor_Tanpa_Jeda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kantor_Tanpa_Jeda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D36407DA369CBE03A8692CB /* Pods_Kantor_Tanpa_Batas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kantor_Tanpa_Batas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1AA270217E216100C454C6 /* DisposisiVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposisiVc.swift; sourceTree = "<group>"; };
 		8A2584D8216FB59500A7485C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Calendar.storyboard; sourceTree = "<group>"; };
 		8A2584DA216FB5BB00A7485C /* ListEventVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEventVc.swift; sourceTree = "<group>"; };
 		8A2584DB216FB5BB00A7485C /* JadwalVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JadwalVc.swift; sourceTree = "<group>"; };
@@ -285,6 +288,7 @@
 		8AB94FF32177711D00EBFA12 /* arrowDownClear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowDownClear.png; sourceTree = "<group>"; };
 		8AB94FF52177789800EBFA12 /* Month Year picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Month Year picker.swift"; sourceTree = "<group>"; };
 		8AB94FF821778AD400EBFA12 /* LaporanVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaporanVc.swift; sourceTree = "<group>"; };
+		8AC454EA217E32B100BE48A6 /* KepadaVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KepadaVc.swift; sourceTree = "<group>"; };
 		8AC85BEC21710BAB0096CA37 /* InboxVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxVc.swift; sourceTree = "<group>"; };
 		8AC85BEE21710D130096CA37 /* UIColor + random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + random.swift"; sourceTree = "<group>"; };
 		8AC85BF1217112C30096CA37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Inbox.storyboard; sourceTree = "<group>"; };
@@ -588,6 +592,8 @@
 			children = (
 				8AC85BEC21710BAB0096CA37 /* InboxVc.swift */,
 				8AC85BF321711FA60096CA37 /* InboxDetailVc.swift */,
+				8AC454EA217E32B100BE48A6 /* KepadaVc.swift */,
+				8A1AA270217E216100C454C6 /* DisposisiVc.swift */,
 				8AB94FF821778AD400EBFA12 /* LaporanVc.swift */,
 			);
 			path = Inbox;
@@ -1401,9 +1407,11 @@
 				9F0BA7F721656E90001C3A4B /* ObjectAssociation.swift in Sources */,
 				9F0BA83F21656E90001C3A4B /* Primitive+Typecasting.swift in Sources */,
 				9F0BA83121656E90001C3A4B /* UIView+TagCasting.swift in Sources */,
+				8A1AA271217E216100C454C6 /* DisposisiVc.swift in Sources */,
 				9F0BA86221656F2A001C3A4B /* String+UrlGetter.swift in Sources */,
 				9F0BA83C21656E90001C3A4B /* UIResponder+FirstResponder.swift in Sources */,
 				8A2584E9216FBD3000A7485C /* HamburgerVc.swift in Sources */,
+				8AC454EB217E32B100BE48A6 /* KepadaVc.swift in Sources */,
 				9F0BA81321656E90001C3A4B /* CALayer+Image.swift in Sources */,
 				9F0BA7DF21656E90001C3A4B /* CommonUtility.swift in Sources */,
 				9F0BA84921656E90001C3A4B /* UITableViewCell+HeightToFit.swift in Sources */,
