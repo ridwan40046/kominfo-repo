@@ -99,7 +99,9 @@ extension HomeVc: UITableViewDelegate, UITableViewDataSource{
         case 4:
             let vc = UIViewController.instantiate(named: "JadwalVc") as? JadwalVc
             vc?.show(currentVc: self, title: "Agenda", isHidden: true)
-        case 5: toastUser("Fitur ini masih dalam pengembangan");
+        case 5:
+            let vc = UIViewController.instantiate(named: "InfoVc") as? InfoVc
+            vc?.show(currentVc: self)
             
         default:
             print("\(indexPath.section), \(indexPath.row)")
