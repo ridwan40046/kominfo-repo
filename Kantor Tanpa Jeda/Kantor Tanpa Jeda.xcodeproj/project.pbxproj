@@ -180,12 +180,12 @@
 		9F0BA86421656F2A001C3A4B /* Reachability+Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0BA85F21656F2A001C3A4B /* Reachability+Function.swift */; };
 		9F0BA86521656F2A001C3A4B /* AMPopTip+Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0BA86021656F2A001C3A4B /* AMPopTip+Function.swift */; };
 		9F0BA86621656F2A001C3A4B /* Toaster+Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0BA86121656F2A001C3A4B /* Toaster+Function.swift */; };
+		9F443EA52177271400DCD83E /* PasscodeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F443EA42177271400DCD83E /* PasscodeVc.swift */; };
 		9F47D51F216B35CA00FAF37E /* Username.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F47D51D216B35C900FAF37E /* Username.png */; };
 		9F47D520216B35CA00FAF37E /* Password.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F47D51E216B35CA00FAF37E /* Password.png */; };
 		9F4B53D7216C37F1000C97FF /* office.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F4B53D6216C37F1000C97FF /* office.jpg */; };
 		9F502F2C21757308007E3FF1 /* LogoutVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F502F2B21757308007E3FF1 /* LogoutVc.swift */; };
 		9F5FECC32171A75400145069 /* hambuegr menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5FECC22171A75300145069 /* hambuegr menu.png */; };
-		9F5FECC52171A79E00145069 /* hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5FECC42171A79E00145069 /* hamburger.png */; };
 		9F5FECC72171C9BE00145069 /* Artboard 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5FECC62171C9BE00145069 /* Artboard 3.png */; };
 		9F5FECC92171DD8900145069 /* DaftarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5FECC82171DD8900145069 /* DaftarVc.swift */; };
 		9F7E52A9216EF190004A27C9 /* HomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E52A8216EF190004A27C9 /* HomeVc.swift */; };
@@ -257,12 +257,16 @@
 		9FA301CE216BB42B0030B44E /* SanFranciscoDisplay-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA3019B216BB42B0030B44E /* SanFranciscoDisplay-Light.otf */; };
 		9FB88CF22176CCE100457F31 /* NavigationVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB88CF12176CCE100457F31 /* NavigationVc.swift */; };
 		9FC1CF132174F826000B6BF2 /* TestingDropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1CF122174F826000B6BF2 /* TestingDropdown.swift */; };
+		9FDF60282178D6FA003E0CCD /* InfoDetailVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDF60272178D6FA003E0CCD /* InfoDetailVc.swift */; };
 		9FE29676216D6575008F13C1 /* TabBarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE29675216D6575008F13C1 /* TabBarVc.swift */; };
 		9FE2967C216D6B82008F13C1 /* akun saya disable.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE29677216D6B7F008F13C1 /* akun saya disable.png */; };
 		9FE2967D216D6B82008F13C1 /* akun saya active.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE29678216D6B80008F13C1 /* akun saya active.png */; };
 		9FE2967E216D6B82008F13C1 /* home disable.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE29679216D6B80008F13C1 /* home disable.png */; };
 		9FE2967F216D6B82008F13C1 /* home active.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2967A216D6B81008F13C1 /* home active.png */; };
 		9FE29680216D6B82008F13C1 /* keluar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2967B216D6B81008F13C1 /* keluar.png */; };
+		9FF92D1C21812F4C0057D9FB /* DraftDetailVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF92D1B21812F4C0057D9FB /* DraftDetailVc.swift */; };
+		9FFA126F2177C6C700B9AC05 /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFA126D2177C6C700B9AC05 /* Info.storyboard */; };
+		9FFA12722177C9DC00B9AC05 /* InfoVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA12712177C9DC00B9AC05 /* InfoVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -451,6 +455,7 @@
 		9F0BA86F21657034001C3A4B /* Singleton+Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Singleton+Data.swift"; sourceTree = "<group>"; };
 		9F0BA87021657035001C3A4B /* Singleton+OAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Singleton+OAuth.swift"; sourceTree = "<group>"; };
 		9F0BA87121657035001C3A4B /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		9F443EA42177271400DCD83E /* PasscodeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PasscodeVc.swift; path = "/Users/ridwansuryaputra/Desktop/CoursesSelf/kominfo-repo/Kantor Tanpa Jeda/Kantor Tanpa Jeda/View Controllers/Auth/PasscodeVc.swift"; sourceTree = "<absolute>"; };
 		9F47D51D216B35C900FAF37E /* Username.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Username.png; sourceTree = "<group>"; };
 		9F47D51E216B35CA00FAF37E /* Password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Password.png; sourceTree = "<group>"; };
 		9F4B53D6216C37F1000C97FF /* office.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = office.jpg; sourceTree = "<group>"; };
@@ -528,12 +533,16 @@
 		9FA3019B216BB42B0030B44E /* SanFranciscoDisplay-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SanFranciscoDisplay-Light.otf"; path = "sf/SanFranciscoDisplay-Light.otf"; sourceTree = "<group>"; };
 		9FB88CF12176CCE100457F31 /* NavigationVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVc.swift; sourceTree = "<group>"; };
 		9FC1CF122174F826000B6BF2 /* TestingDropdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingDropdown.swift; sourceTree = "<group>"; };
+		9FDF60272178D6FA003E0CCD /* InfoDetailVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetailVc.swift; sourceTree = "<group>"; };
 		9FE29675216D6575008F13C1 /* TabBarVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVc.swift; sourceTree = "<group>"; };
 		9FE29677216D6B7F008F13C1 /* akun saya disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "akun saya disable.png"; sourceTree = "<group>"; };
 		9FE29678216D6B80008F13C1 /* akun saya active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "akun saya active.png"; sourceTree = "<group>"; };
 		9FE29679216D6B80008F13C1 /* home disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home disable.png"; sourceTree = "<group>"; };
 		9FE2967A216D6B81008F13C1 /* home active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home active.png"; sourceTree = "<group>"; };
 		9FE2967B216D6B81008F13C1 /* keluar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keluar.png; sourceTree = "<group>"; };
+		9FF92D1B21812F4C0057D9FB /* DraftDetailVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftDetailVc.swift; sourceTree = "<group>"; };
+		9FFA126E2177C6C700B9AC05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Info.storyboard; sourceTree = "<group>"; };
+		9FFA12712177C9DC00B9AC05 /* InfoVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVc.swift; sourceTree = "<group>"; };
 		A35C6498508A69F98A6FEF90 /* Pods-Kantor Tanpa Batas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kantor Tanpa Batas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kantor Tanpa Batas/Pods-Kantor Tanpa Batas.debug.xcconfig"; sourceTree = "<group>"; };
 		DAE898C23CF6C6C758A6E976 /* Pods-Kantor Tanpa Jeda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kantor Tanpa Jeda.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kantor Tanpa Jeda/Pods-Kantor Tanpa Jeda.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -600,6 +609,7 @@
 			isa = PBXGroup;
 			children = (
 				8AFE03AD21766E5F00E0CC12 /* DraftVc.swift */,
+				9FF92D1B21812F4C0057D9FB /* DraftDetailVc.swift */,
 			);
 			path = Draft;
 			sourceTree = "<group>";
@@ -777,6 +787,7 @@
 		9F0BA74121656732001C3A4B /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9FFA12702177C9B700B9AC05 /* Info */,
 				8AFE03AC21766E4100E0CC12 /* Draft */,
 				9F98389E216FBAFF00614483 /* Profile */,
 				8AC85BFA21712B640096CA37 /* Jadwal Pimpinan */,
@@ -952,6 +963,7 @@
 				8AFE03AF21766EA000E0CC12 /* Draft.storyboard */,
 				9F0A6E422163C54600BF2841 /* LaunchScreen.storyboard */,
 				9F98389C216FBAF100614483 /* temporary.storyboard */,
+				9FFA126D2177C6C700B9AC05 /* Info.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -983,6 +995,7 @@
 		9FA3014E216BB07B0030B44E /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				9F443EA42177271400DCD83E /* PasscodeVc.swift */,
 				9FA3014F216BB0930030B44E /* LoginVc.swift */,
 				9FE29675216D6575008F13C1 /* TabBarVc.swift */,
 				9F5FECC82171DD8900145069 /* DaftarVc.swift */,
@@ -990,6 +1003,15 @@
 				9F502F2B21757308007E3FF1 /* LogoutVc.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		9FFA12702177C9B700B9AC05 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				9FFA12712177C9DC00B9AC05 /* InfoVc.swift */,
+				9FDF60272178D6FA003E0CCD /* InfoDetailVc.swift */,
+			);
+			path = Info;
 			sourceTree = "<group>";
 		};
 		CE03BFB83F6B2B44239389FE /* Pods */ = {
@@ -1063,6 +1085,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FFA126F2177C6C700B9AC05 /* Info.storyboard in Resources */,
 				9F0BA75E21656AFA001C3A4B /* kominfo white.png in Resources */,
 				9FA301A7216BB42B0030B44E /* SF-Pro-Text-Bold.otf in Resources */,
 				9FA301B5216BB42B0030B44E /* SF-Pro-Text-SemiboldItalic.otf in Resources */,
@@ -1284,6 +1307,7 @@
 				9F0BA83221656E90001C3A4B /* String+Contains.swift in Sources */,
 				9F0BA7F121656E90001C3A4B /* String+Padding.swift in Sources */,
 				8A2584DD216FB5BB00A7485C /* JadwalVc.swift in Sources */,
+				9FFA12722177C9DC00B9AC05 /* InfoVc.swift in Sources */,
 				9F0BA7ED21656E90001C3A4B /* UIView+RemoveAllSubviews.swift in Sources */,
 				8AC85BED21710BAB0096CA37 /* InboxVc.swift in Sources */,
 				9F0BA81121656E90001C3A4B /* UIView+AddGestureRecognizer.swift in Sources */,
@@ -1341,6 +1365,7 @@
 				9F0BA81021656E90001C3A4B /* String+PrefixPostfix.swift in Sources */,
 				9F0BA81821656E90001C3A4B /* NSObject+ClassName.swift in Sources */,
 				9F0BA84821656E90001C3A4B /* Collection+Summary.swift in Sources */,
+				9F443EA52177271400DCD83E /* PasscodeVc.swift in Sources */,
 				9F0BA83D21656E90001C3A4B /* CGMargin.swift in Sources */,
 				9F0BA85921656EDB001C3A4B /* BaseViewController.swift in Sources */,
 				9F0BA84721656E90001C3A4B /* UIImageView+ResizeProportionally.swift in Sources */,
@@ -1361,6 +1386,7 @@
 				8AFE03B521767CD100E0CC12 /* String + Inisial.swift in Sources */,
 				9F0BA85A21656EDB001C3A4B /* UIFont+Preset.swift in Sources */,
 				9F0BA84E21656E90001C3A4B /* UIView+Animate.swift in Sources */,
+				9FDF60282178D6FA003E0CCD /* InfoDetailVc.swift in Sources */,
 				8AFE03B32176755400E0CC12 /* String + nth char.swift in Sources */,
 				9F0BA7F621656E90001C3A4B /* UIFont+FontAwesome.swift in Sources */,
 				9F0BA80821656E90001C3A4B /* UIScrollView+Page.swift in Sources */,
@@ -1391,6 +1417,7 @@
 				9F0BA83F21656E90001C3A4B /* Primitive+Typecasting.swift in Sources */,
 				9F0BA83121656E90001C3A4B /* UIView+TagCasting.swift in Sources */,
 				9F0BA86221656F2A001C3A4B /* String+UrlGetter.swift in Sources */,
+				9FF92D1C21812F4C0057D9FB /* DraftDetailVc.swift in Sources */,
 				9F0BA83C21656E90001C3A4B /* UIResponder+FirstResponder.swift in Sources */,
 				8A2584E9216FBD3000A7485C /* HamburgerVc.swift in Sources */,
 				9F0BA81321656E90001C3A4B /* CALayer+Image.swift in Sources */,
@@ -1450,6 +1477,14 @@
 				9F0A6E432163C54600BF2841 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9FFA126D2177C6C700B9AC05 /* Info.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FFA126E2177C6C700B9AC05 /* Base */,
+			);
+			name = Info.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
