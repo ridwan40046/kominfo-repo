@@ -36,7 +36,7 @@ extension Date {
         return df.string(from: self);
     }
     
-    var stringOfDate : String { return string (format: .date); }
+    var stringOfDate : String { return string (format: .longDate); }
     var stringOfTime : String { return string (format: .time); }
     var stringOfDateTime : String { return string (format: .dateTime); }
     

@@ -32,6 +32,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>Dropdowns.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
 		<key>GSImageViewerController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -87,6 +92,11 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>12</integer>
+		</dict>
+		<key>SmileLock.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
 		</dict>
 		<key>SteviaLayout.xcscheme</key>
 		<dict>
