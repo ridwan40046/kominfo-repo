@@ -18,6 +18,7 @@ class JadwalVc: BaseVc {
     let month = Calendar.current.component(.month, from: Date())
     var isHidden = false
     
+    @IBOutlet var viewPicker: UIView!
     @IBOutlet weak var btnPlus: UIButton!
     @IBOutlet weak var monthView: MGCMonthPlannerView!
     
@@ -25,6 +26,12 @@ class JadwalVc: BaseVc {
         super.viewDidLoad()
         setEvent()
         setCalendarAttr()
+    }
+    @IBAction func btnCancelTapped(_ sender: UIButton) {
+        viewPicker.removeFromSuperview()
+    }
+    @IBAction func btnDoneTapped(_ sender: UIButton) {
+        viewPicker.removeFromSuperview()
     }
     
     @IBAction func btnTambahTapped(_ sender: UIButton) {
@@ -45,6 +52,7 @@ class JadwalVc: BaseVc {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         setCustomCalendar()
+        
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -73,12 +81,33 @@ class JadwalVc: BaseVc {
         currentVc?.navigationItem.backBarButtonItem = back
         let btnKanan = UIBarButtonItem(image: UIImage(named: "hamburger.png")?.resize(20, 20), style: .done, target: self, action: #selector(hamburger))
         
-        let btnFilter = UIBarButtonItem(image: UIImage(named: "Filter.png")?.resize(18, 18), style: .done, target: self, action: nil)
+        let btnFilter = UIBarButtonItem(image: UIImage(named: "Filter.png")?.resize(18, 18), style: .done, target: self, action: #selector(filter))
         
         self.navigationItem.setRightBarButtonItems([btnKanan, btnFilter], animated: false)
     }
     
-    
+    @objc func filter(){
+        let vPicker = self.viewPicker
+        vPicker?.frame = CGRect(x: 0, y: 66, width: UIScreen.main.bounds.width, height: 200)
+        viewPicker.bottom = UIScreen.main.bounds.height
+        self.view.addSubview(vPicker!)
+        
+        let solidView = vPicker?.View(200)
+        let containerV = solidView?.View(201)
+        let mp = MonthYearPickerView()
+        mp.backgroundColor = .white
+        mp.frame = containerV!.layer.bounds
+        containerV?.addSubview(mp)
+        mp.months = arrBulan
+        
+        mp.onDateSelected = {(month: Int, year: Int) in
+            let string = String(format: "%02d/%d", month, year)
+            print(string) // should show something like 05/2015
+//            if string.trimmingCharacters(in: .whitespaces) != "" {
+//                self.selectedMonth = "\(arrBulan[month-1]) \(year)"
+//            }
+        }
+    }
     func setEvent() {
         let formatter = DateFormatter()
         formatter.dateFormat = "dd-MM-yyyy HH:mm:ss"
@@ -181,7 +210,7 @@ class JadwalVc: BaseVc {
             lblToday.center = highlightV.center
             
             //backround label = orange, set corner radius
-            lblToday.backgroundColor = UIColor(red: 243/255, green: 187/255, blue: 95/255, alpha: 1)
+            lblToday.backgroundColor = UIColor.orangeCalendar
             lblToday.clipsToBounds = true
             
             lblToday.layer.cornerRadius = max / 3.5

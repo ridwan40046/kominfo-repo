@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 class KepadaVc: BaseVc {
-    
+    var checkList = [false, false, false, false, false]
     @IBOutlet weak var searchView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,7 +58,9 @@ extension KepadaVc: UITableViewDelegate, UITableViewDataSource {
         tableView.deselectRow(at: indexPath, animated: false)
         let cell = tableView.cellForRow(at: indexPath)
         guard let img = cell?.Image(3) else {return}
-        img.isHidden = !img.isHidden
+//        img.isHidden = !img.isHidden
+        checkList[indexPath.row] = !(checkList[indexPath.row])
+        cell?.accessoryType = checkList[indexPath.row] ? .checkmark : .none
     }
     
 }

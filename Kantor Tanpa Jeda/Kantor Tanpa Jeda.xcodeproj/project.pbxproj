@@ -31,6 +31,8 @@
 		8AC85BF9217129360096CA37 /* Persetujuan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC85BF7217129360096CA37 /* Persetujuan.storyboard */; };
 		8AC85BFC21712B7C0096CA37 /* PersetujuanVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85BFB21712B7C0096CA37 /* PersetujuanVc.swift */; };
 		8AC85BFE217131660096CA37 /* InfoJadwalVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85BFD217131660096CA37 /* InfoJadwalVc.swift */; };
+		8ADD3B8621821F52000C1EF5 /* IsiVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD3B8521821F52000C1EF5 /* IsiVc.swift */; };
+		8AF0FE3A2182007A002212E1 /* ListEvent + calendar mini.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0FE392182007A002212E1 /* ListEvent + calendar mini.swift */; };
 		8AFE03AE21766E5F00E0CC12 /* DraftVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE03AD21766E5F00E0CC12 /* DraftVc.swift */; };
 		8AFE03B121766EA000E0CC12 /* Draft.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFE03AF21766EA000E0CC12 /* Draft.storyboard */; };
 		8AFE03B32176755400E0CC12 /* String + nth char.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE03B22176755400E0CC12 /* String + nth char.swift */; };
@@ -296,6 +298,8 @@
 		8AC85BF8217129360096CA37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Persetujuan.storyboard; sourceTree = "<group>"; };
 		8AC85BFB21712B7C0096CA37 /* PersetujuanVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersetujuanVc.swift; sourceTree = "<group>"; };
 		8AC85BFD217131660096CA37 /* InfoJadwalVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoJadwalVc.swift; sourceTree = "<group>"; };
+		8ADD3B8521821F52000C1EF5 /* IsiVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsiVc.swift; sourceTree = "<group>"; };
+		8AF0FE392182007A002212E1 /* ListEvent + calendar mini.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListEvent + calendar mini.swift"; sourceTree = "<group>"; };
 		8AFE03AD21766E5F00E0CC12 /* DraftVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftVc.swift; sourceTree = "<group>"; };
 		8AFE03B021766EA000E0CC12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Draft.storyboard; sourceTree = "<group>"; };
 		8AFE03B22176755400E0CC12 /* String + nth char.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + nth char.swift"; sourceTree = "<group>"; };
@@ -572,7 +576,9 @@
 			isa = PBXGroup;
 			children = (
 				8A2584DB216FB5BB00A7485C /* JadwalVc.swift */,
+				8AF0FE392182007A002212E1 /* ListEvent + calendar mini.swift */,
 				8A2584DA216FB5BB00A7485C /* ListEventVc.swift */,
+				8ADD3B8521821F52000C1EF5 /* IsiVc.swift */,
 				8A482AD02170F04B007BE6BD /* NewAgendaVc.swift */,
 			);
 			name = Calendar;
@@ -1288,6 +1294,7 @@
 				9F0BA84521656E90001C3A4B /* UITableView+RefreshControl.swift in Sources */,
 				9F0BA80521656E90001C3A4B /* String+Replace.swift in Sources */,
 				9F0BA81721656E90001C3A4B /* RawRepresentable+Optional.swift in Sources */,
+				8AF0FE3A2182007A002212E1 /* ListEvent + calendar mini.swift in Sources */,
 				9F7E52A9216EF190004A27C9 /* HomeVc.swift in Sources */,
 				9F0A6E3C2163C53E00BF2841 /* ViewController.swift in Sources */,
 				9F0BA80D21656E90001C3A4B /* UIScrollView+ScrollToView.swift in Sources */,
@@ -1310,6 +1317,7 @@
 				9F0BA82321656E90001C3A4B /* UIDropDownList.swift in Sources */,
 				8A482AD12170F04B007BE6BD /* NewAgendaVc.swift in Sources */,
 				9F0BA82821656E90001C3A4B /* Collection+Typecasting.swift in Sources */,
+				8ADD3B8621821F52000C1EF5 /* IsiVc.swift in Sources */,
 				9F0BA80721656E90001C3A4B /* String+HTMLEntities.swift in Sources */,
 				8AC85BFE217131660096CA37 /* InfoJadwalVc.swift in Sources */,
 				9F0BA83521656E90001C3A4B /* UIViewController+FirstResponder.swift in Sources */,
