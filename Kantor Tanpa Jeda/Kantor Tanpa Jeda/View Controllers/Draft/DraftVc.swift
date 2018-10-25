@@ -144,6 +144,8 @@ extension DraftVc: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
+        let vc = UIViewController.instantiate(named: "DraftDetailVc") as? DraftDetailVc
+        vc?.show(currentVc: self)
     }
     
 }

@@ -36,7 +36,9 @@ class ProfileVc: BaseVc {
     }
     @IBAction func btnStatusTapped(_ sender: Any) {
     }
-    @IBAction func btnDownloadTapped(_ sender: Any) {
+    @IBAction func btnDownloadTapped(_ sender: UIButton) {
+        let vc = UIViewController.instantiate(named: "PasscodeVc") as? PasscodeVc
+        vc?.show(from: self)
     }
     
 }
