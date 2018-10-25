@@ -18,4 +18,7 @@ extension UIColor {
     static var blueButton : UIColor { return UIColor.init(red: 0.0/255.0, green: 122.0/255.0, blue: 255.0/255.0, alpha: 1); }
     
     static func white(opacity: CGFloat) -> UIColor { return UIColor.init(red: 1, green: 1, blue: 1, alpha: opacity); }
+    
+    static var orangeCalendar : UIColor { return UIColor(red: 243/255, green: 187/255, blue: 95/255, alpha: 1)}
+    
 }

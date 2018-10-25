@@ -29,6 +29,21 @@ class InboxDetailVc: BaseVc {
     @IBOutlet weak var btnDisposisi: UIButton!
     @IBOutlet weak var btnLaporan: UIButton!
     
+    @IBAction func disposisiTapped(_ sender: UIButton) {
+        let vc = UIViewController.instantiate(named: "DisposisiVc") as? DisposisiVc
+        if sender.tag == 101 {
+            vc?.show(currentVc: self, isMessageShown: true)
+        }
+        else {
+            vc?.show(currentVc: self, isMessageShown: false)
+        }
+    }
+    
+    @IBAction func laporanTapped(_ sender: UIButton) {
+        let vc = UIViewController.instantiate(named: "LaporanVc") as? LaporanVc
+        vc?.show(currentVc: self)
+    }
+    
 }
 
 extension InboxDetailVc: UITableViewDataSource, UITableViewDelegate {
