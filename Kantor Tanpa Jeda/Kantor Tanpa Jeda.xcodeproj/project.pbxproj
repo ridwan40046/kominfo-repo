@@ -32,6 +32,7 @@
 		8AC85BFC21712B7C0096CA37 /* PersetujuanVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85BFB21712B7C0096CA37 /* PersetujuanVc.swift */; };
 		8AC85BFE217131660096CA37 /* InfoJadwalVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC85BFD217131660096CA37 /* InfoJadwalVc.swift */; };
 		8ADD3B8621821F52000C1EF5 /* IsiVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD3B8521821F52000C1EF5 /* IsiVc.swift */; };
+		8ADD3B88218225C0000C1EF5 /* PasscodeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD3B87218225C0000C1EF5 /* PasscodeVc.swift */; };
 		8AF0FE3A2182007A002212E1 /* ListEvent + calendar mini.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0FE392182007A002212E1 /* ListEvent + calendar mini.swift */; };
 		8AFE03AE21766E5F00E0CC12 /* DraftVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE03AD21766E5F00E0CC12 /* DraftVc.swift */; };
 		8AFE03B121766EA000E0CC12 /* Draft.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFE03AF21766EA000E0CC12 /* Draft.storyboard */; };
@@ -188,7 +189,6 @@
 		9F0BA86421656F2A001C3A4B /* Reachability+Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0BA85F21656F2A001C3A4B /* Reachability+Function.swift */; };
 		9F0BA86521656F2A001C3A4B /* AMPopTip+Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0BA86021656F2A001C3A4B /* AMPopTip+Function.swift */; };
 		9F0BA86621656F2A001C3A4B /* Toaster+Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0BA86121656F2A001C3A4B /* Toaster+Function.swift */; };
-		9F443EA52177271400DCD83E /* PasscodeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F443EA42177271400DCD83E /* PasscodeVc.swift */; };
 		9F47D51F216B35CA00FAF37E /* Username.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F47D51D216B35C900FAF37E /* Username.png */; };
 		9F47D520216B35CA00FAF37E /* Password.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F47D51E216B35CA00FAF37E /* Password.png */; };
 		9F4B53D7216C37F1000C97FF /* office.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F4B53D6216C37F1000C97FF /* office.jpg */; };
@@ -304,6 +304,7 @@
 		8AC85BFB21712B7C0096CA37 /* PersetujuanVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersetujuanVc.swift; sourceTree = "<group>"; };
 		8AC85BFD217131660096CA37 /* InfoJadwalVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoJadwalVc.swift; sourceTree = "<group>"; };
 		8ADD3B8521821F52000C1EF5 /* IsiVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsiVc.swift; sourceTree = "<group>"; };
+		8ADD3B87218225C0000C1EF5 /* PasscodeVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeVc.swift; sourceTree = "<group>"; };
 		8AF0FE392182007A002212E1 /* ListEvent + calendar mini.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListEvent + calendar mini.swift"; sourceTree = "<group>"; };
 		8AFE03AD21766E5F00E0CC12 /* DraftVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftVc.swift; sourceTree = "<group>"; };
 		8AFE03B021766EA000E0CC12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Draft.storyboard; sourceTree = "<group>"; };
@@ -470,7 +471,6 @@
 		9F0BA86F21657034001C3A4B /* Singleton+Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Singleton+Data.swift"; sourceTree = "<group>"; };
 		9F0BA87021657035001C3A4B /* Singleton+OAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Singleton+OAuth.swift"; sourceTree = "<group>"; };
 		9F0BA87121657035001C3A4B /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
-		9F443EA42177271400DCD83E /* PasscodeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PasscodeVc.swift; path = "/Users/ridwansuryaputra/Desktop/CoursesSelf/kominfo-repo/Kantor Tanpa Jeda/Kantor Tanpa Jeda/View Controllers/Auth/PasscodeVc.swift"; sourceTree = "<absolute>"; };
 		9F47D51D216B35C900FAF37E /* Username.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Username.png; sourceTree = "<group>"; };
 		9F47D51E216B35CA00FAF37E /* Password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Password.png; sourceTree = "<group>"; };
 		9F4B53D6216C37F1000C97FF /* office.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = office.jpg; sourceTree = "<group>"; };
@@ -1015,8 +1015,8 @@
 		9FA3014E216BB07B0030B44E /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				9F443EA42177271400DCD83E /* PasscodeVc.swift */,
 				9FA3014F216BB0930030B44E /* LoginVc.swift */,
+				8ADD3B87218225C0000C1EF5 /* PasscodeVc.swift */,
 				9FE29675216D6575008F13C1 /* TabBarVc.swift */,
 				9F5FECC82171DD8900145069 /* DaftarVc.swift */,
 				9FC1CF122174F826000B6BF2 /* TestingDropdown.swift */,
@@ -1389,7 +1389,6 @@
 				9F0BA81021656E90001C3A4B /* String+PrefixPostfix.swift in Sources */,
 				9F0BA81821656E90001C3A4B /* NSObject+ClassName.swift in Sources */,
 				9F0BA84821656E90001C3A4B /* Collection+Summary.swift in Sources */,
-				9F443EA52177271400DCD83E /* PasscodeVc.swift in Sources */,
 				9F0BA83D21656E90001C3A4B /* CGMargin.swift in Sources */,
 				9F0BA85921656EDB001C3A4B /* BaseViewController.swift in Sources */,
 				9F0BA84721656E90001C3A4B /* UIImageView+ResizeProportionally.swift in Sources */,
@@ -1417,6 +1416,7 @@
 				9F0BA80821656E90001C3A4B /* UIScrollView+Page.swift in Sources */,
 				9F0BA82521656E90001C3A4B /* Collection+AppendUnique.swift in Sources */,
 				9F0BA82121656E90001C3A4B /* Date+Comparison.swift in Sources */,
+				8ADD3B88218225C0000C1EF5 /* PasscodeVc.swift in Sources */,
 				9F0BA82621656E90001C3A4B /* UIScrollView+ScrollTo.swift in Sources */,
 				9F0BA81B21656E90001C3A4B /* UITableView+ReloadSection.swift in Sources */,
 				9F0BA7EF21656E90001C3A4B /* CGRect+MaxSize.swift in Sources */,
