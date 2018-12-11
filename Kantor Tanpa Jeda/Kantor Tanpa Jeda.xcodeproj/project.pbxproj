@@ -12,7 +12,6 @@
 		8A2584D9216FB59500A7485C /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2584D7216FB59500A7485C /* Calendar.storyboard */; };
 		8A2584DC216FB5BB00A7485C /* ListEventVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2584DA216FB5BB00A7485C /* ListEventVc.swift */; };
 		8A2584DD216FB5BB00A7485C /* JadwalVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2584DB216FB5BB00A7485C /* JadwalVc.swift */; };
-		8A2584E0216FB5E800A7485C /* EventsObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2584DF216FB5E800A7485C /* EventsObj.swift */; };
 		8A2584E2216FB6F900A7485C /* BaseVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2584E1216FB6F900A7485C /* BaseVc.swift */; };
 		8A2584E6216FBB9500A7485C /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A2584E5216FBB9500A7485C /* cross.png */; };
 		8A2584E9216FBD3000A7485C /* HamburgerVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2584E8216FBD3000A7485C /* HamburgerVc.swift */; };
@@ -193,9 +192,18 @@
 		9F47D520216B35CA00FAF37E /* Password.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F47D51E216B35CA00FAF37E /* Password.png */; };
 		9F4B53D7216C37F1000C97FF /* office.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F4B53D6216C37F1000C97FF /* office.jpg */; };
 		9F502F2C21757308007E3FF1 /* LogoutVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F502F2B21757308007E3FF1 /* LogoutVc.swift */; };
+		9F5D1D0B21BA7B9200171D24 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5D1D0A21BA7B9200171D24 /* Engine.swift */; };
+		9F5D1D0D21BA7BD000171D24 /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5D1D0C21BA7BD000171D24 /* Url.swift */; };
 		9F5FECC32171A75400145069 /* hambuegr menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5FECC22171A75300145069 /* hambuegr menu.png */; };
 		9F5FECC72171C9BE00145069 /* Artboard 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F5FECC62171C9BE00145069 /* Artboard 3.png */; };
 		9F5FECC92171DD8900145069 /* DaftarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5FECC82171DD8900145069 /* DaftarVc.swift */; };
+		9F6843BC21BF52E70078E2E9 /* AuthenticationObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6843BB21BF52E70078E2E9 /* AuthenticationObj.swift */; };
+		9F6843BE21BF54160078E2E9 /* UserObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6843BD21BF54160078E2E9 /* UserObj.swift */; };
+		9F6843C021BFA9000078E2E9 /* InboxObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6843BF21BFA9000078E2E9 /* InboxObj.swift */; };
+		9F6843C221BFAA170078E2E9 /* ListObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6843C121BFAA170078E2E9 /* ListObj.swift */; };
+		9F6843C421BFB5A10078E2E9 /* MetaObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6843C321BFB5A10078E2E9 /* MetaObj.swift */; };
+		9F6D9CB821BEEE1900B9AC38 /* EventsObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6D9CB721BEEE1900B9AC38 /* EventsObj.swift */; };
+		9F6D9CB921BEF03400B9AC38 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0BA87121657035001C3A4B /* Singleton.swift */; };
 		9F7E52A9216EF190004A27C9 /* HomeVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E52A8216EF190004A27C9 /* HomeVc.swift */; };
 		9F98389D216FBAF100614483 /* temporary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F98389C216FBAF100614483 /* temporary.storyboard */; };
 		9F9838A0216FBBDB00614483 /* ProfileVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F98389F216FBBDB00614483 /* ProfileVc.swift */; };
@@ -272,6 +280,12 @@
 		9FE2967E216D6B82008F13C1 /* home disable.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE29679216D6B80008F13C1 /* home disable.png */; };
 		9FE2967F216D6B82008F13C1 /* home active.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2967A216D6B81008F13C1 /* home active.png */; };
 		9FE29680216D6B82008F13C1 /* keluar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FE2967B216D6B81008F13C1 /* keluar.png */; };
+		9FE3ACCA21BDFC1A00B6D7E8 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3ACC921BDFC1A00B6D7E8 /* Network.swift */; };
+		9FE3ACCC21BDFC3F00B6D7E8 /* Network+Oauth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3ACCB21BDFC3F00B6D7E8 /* Network+Oauth.swift */; };
+		9FE3ACCE21BE001900B6D7E8 /* OAuthObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE3ACCD21BE001900B6D7E8 /* OAuthObj.swift */; };
+		9FE3ACCF21BE008000B6D7E8 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0BA86821656F6D001C3A4B /* BaseModel.swift */; };
+		9FE3ACD021BE008500B6D7E8 /* ErrorObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0BA86721656F6C001C3A4B /* ErrorObj.swift */; };
+		9FE3ACD121BE008800B6D7E8 /* JsonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0BA86921656F6D001C3A4B /* JsonObject.swift */; };
 		9FF92D1C21812F4C0057D9FB /* DraftDetailVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF92D1B21812F4C0057D9FB /* DraftDetailVc.swift */; };
 		9FFA126F2177C6C700B9AC05 /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFA126D2177C6C700B9AC05 /* Info.storyboard */; };
 		9FFA12722177C9DC00B9AC05 /* InfoVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA12712177C9DC00B9AC05 /* InfoVc.swift */; };
@@ -285,7 +299,6 @@
 		8A2584D8216FB59500A7485C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Calendar.storyboard; sourceTree = "<group>"; };
 		8A2584DA216FB5BB00A7485C /* ListEventVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEventVc.swift; sourceTree = "<group>"; };
 		8A2584DB216FB5BB00A7485C /* JadwalVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JadwalVc.swift; sourceTree = "<group>"; };
-		8A2584DF216FB5E800A7485C /* EventsObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsObj.swift; sourceTree = "<group>"; };
 		8A2584E1216FB6F900A7485C /* BaseVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVc.swift; sourceTree = "<group>"; };
 		8A2584E5216FBB9500A7485C /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
 		8A2584E8216FBD3000A7485C /* HamburgerVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerVc.swift; sourceTree = "<group>"; };
@@ -475,9 +488,17 @@
 		9F47D51E216B35CA00FAF37E /* Password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Password.png; sourceTree = "<group>"; };
 		9F4B53D6216C37F1000C97FF /* office.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = office.jpg; sourceTree = "<group>"; };
 		9F502F2B21757308007E3FF1 /* LogoutVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutVc.swift; sourceTree = "<group>"; };
+		9F5D1D0A21BA7B9200171D24 /* Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		9F5D1D0C21BA7BD000171D24 /* Url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
 		9F5FECC22171A75300145069 /* hambuegr menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hambuegr menu.png"; sourceTree = "<group>"; };
 		9F5FECC62171C9BE00145069 /* Artboard 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 3.png"; sourceTree = "<group>"; };
 		9F5FECC82171DD8900145069 /* DaftarVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaftarVc.swift; sourceTree = "<group>"; };
+		9F6843BB21BF52E70078E2E9 /* AuthenticationObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationObj.swift; sourceTree = "<group>"; };
+		9F6843BD21BF54160078E2E9 /* UserObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserObj.swift; sourceTree = "<group>"; };
+		9F6843BF21BFA9000078E2E9 /* InboxObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxObj.swift; sourceTree = "<group>"; };
+		9F6843C121BFAA170078E2E9 /* ListObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListObj.swift; sourceTree = "<group>"; };
+		9F6843C321BFB5A10078E2E9 /* MetaObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaObj.swift; sourceTree = "<group>"; };
+		9F6D9CB721BEEE1900B9AC38 /* EventsObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsObj.swift; sourceTree = "<group>"; };
 		9F7E52A8216EF190004A27C9 /* HomeVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVc.swift; sourceTree = "<group>"; };
 		9F98389C216FBAF100614483 /* temporary.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = temporary.storyboard; sourceTree = "<group>"; };
 		9F98389F216FBBDB00614483 /* ProfileVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVc.swift; sourceTree = "<group>"; };
@@ -554,6 +575,9 @@
 		9FE29679216D6B80008F13C1 /* home disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home disable.png"; sourceTree = "<group>"; };
 		9FE2967A216D6B81008F13C1 /* home active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home active.png"; sourceTree = "<group>"; };
 		9FE2967B216D6B81008F13C1 /* keluar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keluar.png; sourceTree = "<group>"; };
+		9FE3ACC921BDFC1A00B6D7E8 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		9FE3ACCB21BDFC3F00B6D7E8 /* Network+Oauth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network+Oauth.swift"; sourceTree = "<group>"; };
+		9FE3ACCD21BE001900B6D7E8 /* OAuthObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthObj.swift; sourceTree = "<group>"; };
 		9FF92D1B21812F4C0057D9FB /* DraftDetailVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftDetailVc.swift; sourceTree = "<group>"; };
 		9FFA126E2177C6C700B9AC05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Info.storyboard; sourceTree = "<group>"; };
 		9FFA12712177C9DC00B9AC05 /* InfoVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVc.swift; sourceTree = "<group>"; };
@@ -788,6 +812,10 @@
 				9F0BA86F21657034001C3A4B /* Singleton+Data.swift */,
 				9F0BA87021657035001C3A4B /* Singleton+OAuth.swift */,
 				9F0BA86D21656FDF001C3A4B /* Aliases.swift */,
+				9F5D1D0A21BA7B9200171D24 /* Engine.swift */,
+				9F5D1D0C21BA7BD000171D24 /* Url.swift */,
+				9FE3ACC921BDFC1A00B6D7E8 /* Network.swift */,
+				9FE3ACCB21BDFC3F00B6D7E8 /* Network+Oauth.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -795,10 +823,16 @@
 		9F0BA740216566FF001C3A4B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9F6D9CB721BEEE1900B9AC38 /* EventsObj.swift */,
 				9F0BA86821656F6D001C3A4B /* BaseModel.swift */,
 				9F0BA86721656F6C001C3A4B /* ErrorObj.swift */,
-				8A2584DF216FB5E800A7485C /* EventsObj.swift */,
 				9F0BA86921656F6D001C3A4B /* JsonObject.swift */,
+				9FE3ACCD21BE001900B6D7E8 /* OAuthObj.swift */,
+				9F6843BB21BF52E70078E2E9 /* AuthenticationObj.swift */,
+				9F6843BD21BF54160078E2E9 /* UserObj.swift */,
+				9F6843BF21BFA9000078E2E9 /* InboxObj.swift */,
+				9F6843C121BFAA170078E2E9 /* ListObj.swift */,
+				9F6843C321BFB5A10078E2E9 /* MetaObj.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1296,6 +1330,7 @@
 				9F0BA84C21656E90001C3A4B /* UIView+Indicator.swift in Sources */,
 				9F0BA85C21656EDB001C3A4B /* UIViewController+Preset.swift in Sources */,
 				9F0BA83421656E90001C3A4B /* UIButton+Image.swift in Sources */,
+				9F6843C221BFAA170078E2E9 /* ListObj.swift in Sources */,
 				9F0BA80421656E90001C3A4B /* UIViewController+Storyboard.swift in Sources */,
 				8A2584E2216FB6F900A7485C /* BaseVc.swift in Sources */,
 				9F0BA86321656F2A001C3A4B /* Whisper+Function.swift in Sources */,
@@ -1304,18 +1339,22 @@
 				9F0BA80B21656E90001C3A4B /* Dictionary+Summary.swift in Sources */,
 				9F0BA84D21656E90001C3A4B /* UIPopoverController+Create.swift in Sources */,
 				9F0BA83821656E90001C3A4B /* UIViewController+CameraGallery.swift in Sources */,
+				9FE3ACCA21BDFC1A00B6D7E8 /* Network.swift in Sources */,
 				9F0BA7EB21656E90001C3A4B /* UILabel+PerfectSize.swift in Sources */,
 				9F0BA82721656E90001C3A4B /* UIViewController+NavigationBar.swift in Sources */,
 				9F0BA81C21656E90001C3A4B /* UITextView+HeightToFit.swift in Sources */,
 				8AC85BF421711FA60096CA37 /* InboxDetailVc.swift in Sources */,
 				9F5FECC92171DD8900145069 /* DaftarVc.swift in Sources */,
 				9F0BA7F421656E90001C3A4B /* UIView+Positioning.swift in Sources */,
+				9F6843BE21BF54160078E2E9 /* UserObj.swift in Sources */,
 				9F0BA7F321656E90001C3A4B /* String+Trim.swift in Sources */,
 				8AC85BEF21710D130096CA37 /* UIColor + random.swift in Sources */,
 				9F0BA7FD21656E90001C3A4B /* String+Randomize.swift in Sources */,
 				9F0BA81A21656E90001C3A4B /* UIView+Shadow.swift in Sources */,
 				9F0BA7E221656E90001C3A4B /* String+Case.swift in Sources */,
 				9F0BA84521656E90001C3A4B /* UITableView+RefreshControl.swift in Sources */,
+				9FE3ACD021BE008500B6D7E8 /* ErrorObj.swift in Sources */,
+				9FE3ACCF21BE008000B6D7E8 /* BaseModel.swift in Sources */,
 				9F0BA80521656E90001C3A4B /* String+Replace.swift in Sources */,
 				9F0BA81721656E90001C3A4B /* RawRepresentable+Optional.swift in Sources */,
 				8AF0FE3A2182007A002212E1 /* ListEvent + calendar mini.swift in Sources */,
@@ -1324,6 +1363,8 @@
 				9F0BA80D21656E90001C3A4B /* UIScrollView+ScrollToView.swift in Sources */,
 				9F0BA83621656E90001C3A4B /* Collection+OptionalIndexing.swift in Sources */,
 				9F0BA80E21656E90001C3A4B /* OSTextfieldR.swift in Sources */,
+				9F6D9CB821BEEE1900B9AC38 /* EventsObj.swift in Sources */,
+				9F6843BC21BF52E70078E2E9 /* AuthenticationObj.swift in Sources */,
 				9F0BA82221656E90001C3A4B /* UIBarButtonItem+Create.swift in Sources */,
 				9FA30150216BB0930030B44E /* LoginVc.swift in Sources */,
 				9F0BA83221656E90001C3A4B /* String+Contains.swift in Sources */,
@@ -1335,6 +1376,7 @@
 				9F0BA81121656E90001C3A4B /* UIView+AddGestureRecognizer.swift in Sources */,
 				9F0BA81F21656E90001C3A4B /* UIImage+Hue.swift in Sources */,
 				9F0BA82C21656E90001C3A4B /* StringSearch.swift in Sources */,
+				9F6843C021BFA9000078E2E9 /* InboxObj.swift in Sources */,
 				9F0BA80C21656E90001C3A4B /* Primitive+Operation.swift in Sources */,
 				9F0BA80221656E90001C3A4B /* Collection+RemovingOptionals.swift in Sources */,
 				9F0BA85821656EDB001C3A4B /* UIString+Date.swift in Sources */,
@@ -1344,6 +1386,7 @@
 				9F0BA82821656E90001C3A4B /* Collection+Typecasting.swift in Sources */,
 				8ADD3B8621821F52000C1EF5 /* IsiVc.swift in Sources */,
 				9F0BA80721656E90001C3A4B /* String+HTMLEntities.swift in Sources */,
+				9FE3ACD121BE008800B6D7E8 /* JsonObject.swift in Sources */,
 				8AC85BFE217131660096CA37 /* InfoJadwalVc.swift in Sources */,
 				9F0BA83521656E90001C3A4B /* UIViewController+FirstResponder.swift in Sources */,
 				9F0BA84021656E90001C3A4B /* UICollectionView+Cell.swift in Sources */,
@@ -1362,6 +1405,7 @@
 				9FE29676216D6575008F13C1 /* TabBarVc.swift in Sources */,
 				9F0BA85621656EDB001C3A4B /* CGFloat+Stars.swift in Sources */,
 				9F0BA84A21656E90001C3A4B /* PersistentDictionary.swift in Sources */,
+				9F5D1D0B21BA7B9200171D24 /* Engine.swift in Sources */,
 				9F0BA84221656E90001C3A4B /* UITableView+IndexPath.swift in Sources */,
 				9F0BA7F521656E90001C3A4B /* UIView+ParentSearch.swift in Sources */,
 				9F0BA80F21656E90001C3A4B /* UILabel+HeightToFit.swift in Sources */,
@@ -1370,8 +1414,11 @@
 				9F0BA7E021656E90001C3A4B /* UIView+RoundedRect.swift in Sources */,
 				9F0BA7E421656E90001C3A4B /* UIViewController+RemoveFromStack.swift in Sources */,
 				9F0BA80321656E90001C3A4B /* String+ParentPath.swift in Sources */,
+				9F6D9CB921BEF03400B9AC38 /* Singleton.swift in Sources */,
+				9F6843C421BFB5A10078E2E9 /* MetaObj.swift in Sources */,
 				9F0BA83321656E90001C3A4B /* Dictionary+JSON.swift in Sources */,
 				9F0BA7EE21656E90001C3A4B /* Dictionary+Merge.swift in Sources */,
+				9FE3ACCE21BE001900B6D7E8 /* OAuthObj.swift in Sources */,
 				9F0BA82021656E90001C3A4B /* UICollectionView+IndexPath.swift in Sources */,
 				9F0BA7EA21656E90001C3A4B /* Dictionary+RemovingOptionals.swift in Sources */,
 				9F0BA81421656E90001C3A4B /* String+Indexing.swift in Sources */,
@@ -1413,6 +1460,7 @@
 				9FDF60282178D6FA003E0CCD /* InfoDetailVc.swift in Sources */,
 				8AFE03B32176755400E0CC12 /* String + nth char.swift in Sources */,
 				9F0BA7F621656E90001C3A4B /* UIFont+FontAwesome.swift in Sources */,
+				9F5D1D0D21BA7BD000171D24 /* Url.swift in Sources */,
 				9F0BA80821656E90001C3A4B /* UIScrollView+Page.swift in Sources */,
 				9F0BA82521656E90001C3A4B /* Collection+AppendUnique.swift in Sources */,
 				9F0BA82121656E90001C3A4B /* Date+Comparison.swift in Sources */,
@@ -1422,6 +1470,7 @@
 				9F0BA7EF21656E90001C3A4B /* CGRect+MaxSize.swift in Sources */,
 				9F0BA7DE21656E90001C3A4B /* UITableView+Cell.swift in Sources */,
 				9F0BA7E321656E90001C3A4B /* UITableViewCell+ChainSetter.swift in Sources */,
+				9FE3ACCC21BDFC3F00B6D7E8 /* Network+Oauth.swift in Sources */,
 				9F0BA83B21656E90001C3A4B /* UIView+Border.swift in Sources */,
 				9F0BA81221656E90001C3A4B /* UIView+IsVisible.swift in Sources */,
 				9F0BA7E521656E90001C3A4B /* Dictionary+Comparison.swift in Sources */,
@@ -1434,7 +1483,6 @@
 				9F9838A0216FBBDB00614483 /* ProfileVc.swift in Sources */,
 				9F0BA84B21656E90001C3A4B /* UIScreen+Size.swift in Sources */,
 				9F0BA81E21656E90001C3A4B /* UITextField+Padding.swift in Sources */,
-				8A2584E0216FB5E800A7485C /* EventsObj.swift in Sources */,
 				9F0BA7FA21656E90001C3A4B /* Collection+Comparison.swift in Sources */,
 				9F0BA80121656E90001C3A4B /* CGRect+Center.swift in Sources */,
 				8AC85BFC21712B7C0096CA37 /* PersetujuanVc.swift in Sources */,
