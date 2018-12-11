@@ -8,7 +8,7 @@
 
 import Foundation
 
-//typealias ModelReturn = ((JsonObject?)->Void)
+typealias ModelReturn = ((JsonObject?)->Void)
 
 enum ResponseStatus {
     case success200

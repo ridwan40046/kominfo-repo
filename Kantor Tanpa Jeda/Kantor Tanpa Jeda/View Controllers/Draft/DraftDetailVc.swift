@@ -12,6 +12,8 @@ import UIKit
 class DraftDetailVc: BaseVc {
     
     @IBOutlet var tv: UITableView!
+    @IBOutlet var viewTolak: UIView!
+    @IBOutlet var viewSetuju: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,11 +24,64 @@ class DraftDetailVc: BaseVc {
 
     }
     
-    @IBAction func tolakTapped(_ sender: UIButton){
+    @IBAction func btnDismissTapped() {
+        self.view.endEditing(true);
+        let shade = self.view.view(12345);
+        let view = self.view.view(23456);
+        UIView.animate(withDuration: 0.3, animations: {
+            shade?.alpha = 0;
+            view?.alpha = 0;
+        }) { (done) in
+            shade?.removeFromSuperview();
+            view?.removeFromSuperview();
+        }
+    }
+    
+    func openPopup(_ view: UIView) {
+        self.view.endEditing(true);
+        var shade : UIView! = self.view.view(12345);
+        if shade == nil {
+            shade = UIView.init(frame: UIScreen.main.bounds);
+            shade.backgroundColor = UIColor.black;
+            shade.alpha = 0;
+            shade.tag = 12345;
+            shade.addTapGestureRecognizer(self, action: #selector(btnDismissTapped));
+            self.view.addSubview(shade);
+        }
+        
+        let oldPopup : UIView? = self.view.view(23456);
+        if oldPopup == nil {
+            view.tag = 23456;
+            self.view.addSubview(view);
+            UIView.animate(withDuration: 0.3) {
+                shade.alpha = 0.75;
+                view.alpha = 1;
+            }
+        }
+        else {
+            UIView.animate(withDuration: 0.3, animations: {
+                oldPopup?.alpha = 0;
+            }) { (done) in
+                oldPopup?.removeFromSuperview();
+                view.makeRoundedRect(withCornerRadius: 5);
+                view.tag = 23456;
+                view.alpha = 0;
+                self.view.addSubview(view);
+                UIView.animate(withDuration: 0.3) {
+                    view.alpha = 1;
+                }
+            }
+        }
         
     }
+    
+    @IBAction func tolakTapped(_ sender: UIButton){
+        self.viewTolak.center = self.view.center
+        self.openPopup(self.viewTolak)
+    }
     @IBAction func tandaTanganTapped(_ sender: UIButton){
-        
+        self.viewSetuju.center = self.view.center
+        self.openPopup(self.viewSetuju)
     }
 }
 

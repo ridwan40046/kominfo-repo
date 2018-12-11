@@ -269,8 +269,8 @@ class JsonObject : CustomStringConvertible, CustomDebugStringConvertible {
     func clear () { dict = nil; }
     
     var isSuccess : Bool {
-        if OAuthObj(self)?.accessToken != nil { return true; }
-        if let status = status, status == "success" { return true; }
+        if OAuthObj(self)?.authorization?.apiToken != nil { return true; }
+        if let status = status, status == "SUCCESS" { return true; }
         if errorInfo != nil { return false; }
         return true;
 
