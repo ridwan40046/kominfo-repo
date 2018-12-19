@@ -152,7 +152,7 @@ extension Network {
     internal func requestHandler (method: Alamofire.HTTPMethod = .get, url: String, param: Dict? = nil, callback: ModelReturn?) {
         
         func retryAfterOAuth() {
-            requestNative(method: method, url: url, param: param) { jsonData in
+            requestBase(method: method, url: url, param: param) { jsonData in
                 if jsonData?.isAccessTokenExpired ?? false { toast ("Unresolved OAuth", color: .orange); }
                 else if jsonData?.isSuccess ?? false { }
                 else { toast(jsonData?.errorMessage ?? "Unknown error (\(jsonData?.response?.statusCode ?? 0))", color: UIColor.red); }
@@ -169,10 +169,18 @@ extension Network {
         }
         
         func begin() {
-            requestBase(method: method, url: url, param: param) { jsonData in
-                if jsonData?.isAccessTokenExpired ?? false { retryWithOAuth(jsonData: jsonData); }
-                else if jsonData?.isSuccess ?? false { callback?(jsonData); }
-                else { toast(jsonData?.errorMessage ?? "Unknown error (\(jsonData?.response?.statusCode ?? 0))", color: .red); callback?(jsonData); }
+            requestNative(method: method, url: url, param: param) { jsonData in
+                if jsonData?.isAccessTokenExpired ?? false {
+                    retryWithOAuth(jsonData: jsonData);
+                }
+                else if jsonData?.isSuccess ?? false {
+                    callback?(jsonData);
+                    
+                }
+                else {
+                    toast(jsonData?.errorMessage ?? "Unknown error (\(jsonData?.response?.statusCode ?? 0))", color: .red); callback?(jsonData);
+                    
+                }
             }
         }
         
