@@ -28,8 +28,10 @@ extension Network {
         //        var headers = [ "cache-control": "no-cache"]
         var headers = DictString();
         if param?["client_id"] == nil {
-       //     headers["Authorization"] = "Bearer \(locker.oauth?.accessToken ?? "")";
+            headers["Authorization"] = "Bearer \(locker.oauth?.authorization?.apiToken ?? "")";
+            print("INI HEADER AUTH: \(headers["Authorization"])")
             headers["Content-Type"] = "application/json";
+            headers["Accept"] = "application/json";
         }
         else {
             headers["Content-Type"] = "application/x-www-form-urlencoded";
@@ -122,6 +124,7 @@ extension Network {
         }
         else {
             encoding = JSONEncoding(options: .prettyPrinted);
+            print(encoding)
         }
         Alamofire.request(request.url!.absoluteString,
                           method: method,
@@ -181,8 +184,8 @@ extension Network {
             }
         }
         
-        //        begin();
-        beginWithOAuth();
+        begin();
+//        beginWithOAuth();
         //        if locker.oauth?.expiresDate?.isExpired ?? true {
         //            newOAuth { response in
         //                if response?.isSuccess ?? false { begin(); }

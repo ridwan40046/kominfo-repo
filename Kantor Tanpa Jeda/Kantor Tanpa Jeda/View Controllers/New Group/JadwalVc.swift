@@ -10,6 +10,7 @@ import Foundation
 import CalendarLib
 
 class JadwalVc: BaseVc {
+    var dataAgendas: AgendasObj?
     var events = [EventObj]()
     var viewR = UIView()
     var currentVc: UIViewController?
@@ -26,6 +27,7 @@ class JadwalVc: BaseVc {
         super.viewDidLoad()
         setEvent()
         setCalendarAttr()
+        reloadData()
     }
     @IBAction func btnCancelTapped(_ sender: UIButton) {
         viewPicker.removeFromSuperview()
@@ -71,6 +73,15 @@ class JadwalVc: BaseVc {
         self.title = title
         self.isHidden = isHidden
         currentVc.navigationController?.pushViewController(self, animated: true)
+    }
+    
+    func reloadData(){
+        let calendar = Calendar.current
+        let start = DateComponents(calendar: calendar, year: year, month: month, day: 1, hour: 7, minute: 0, second: 0)
+        let end = DateComponents(calendar: calendar, year: year, month: month + 1, day: 1, hour: 7, minute: 0, second: 0)
+        Engine.getHeadAgenda(start: calendar.date(from: start)!, end: calendar.date(from: end)!){
+            self.dataAgendas = $0?.headAgenda
+        }
     }
     
     override func setNavBar(){
@@ -285,7 +296,5 @@ extension JadwalVc: MGCMonthPlannerViewDelegate, MGCMonthPlannerViewDataSource {
         eventView.color = getRandomColor()
         return eventView
     }
-    
-    
     
 }

@@ -12,6 +12,7 @@ import UIKit
 class InboxVc: BaseVc {
     override func viewDidLoad() {
         super.viewDidLoad()
+        engine.getInboxes()
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
