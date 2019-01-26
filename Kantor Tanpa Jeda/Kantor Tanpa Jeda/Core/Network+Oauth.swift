@@ -22,7 +22,8 @@ extension Network {
         let param = [
             "username": clientUsername,
             "password": clientPassword,
-            "device_id": clientId
+            "device_id": clientId,
+            "notif_token": "12345678"
         ];
         
         requestBase(method: .post, url: Url.login, param: param as [String: AnyObject]) {

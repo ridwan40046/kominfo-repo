@@ -25,7 +25,7 @@ class LoginVc: UIViewController {
     }
 
     @IBAction func btnLoginTapped(_ sender: UIButton) {
-        engine.login(username: "waya003", password: "12345678",deviceId: "12345678"){
+        engine.login(username: "waya003", password: "12345678",deviceId: "12345678", notif: "12345678"){
             if $0?.isSuccess ?? false{
                 DispatchQueue.main.async {
                     let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
