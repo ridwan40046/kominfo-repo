@@ -193,10 +193,21 @@ class JadwalVc: BaseVc {
             
             for i in 0..<subs.count {
                 if let cell = subs[i] as? UICollectionViewCell {
-                    let label = cell.subviews[1].subviews[0] as? UILabel
+                    let view = cell.subviews[1]
+                    let label = view.subviews[0] as? UILabel
                     label?.text = "\(i+1)"
                     label?.textAlignment = .center
                     label?.font = UIFont.systemFont(ofSize: 20, weight: UIFont.Weight(rawValue: 0.4))
+                    label?.height = view.height - 30
+                    
+                    let lblCountEvent = UILabel(frame: view.bounds)
+                    lblCountEvent.height = 20
+                    lblCountEvent.center.y = view.centerY + 15
+                    lblCountEvent.font = UIFont.systemFont(ofSize: 13, weight: UIFont.Weight(rawValue: 0.1))
+                    lblCountEvent.textAlignment = .center
+                    lblCountEvent.text = "\(i+1)"
+                    view.addSubview(lblCountEvent)
+                    
                     
                     let components = DateComponents(year: year, month: month, day: i+1)
                     let allDay = Calendar.current.date(from: components)!
@@ -214,19 +225,29 @@ class JadwalVc: BaseVc {
             
             //get today's label
             let highlightV = subs[day-1].subviews[1] //cellItem
-            let lblToday = highlightV.subviews[0] as! UILabel //label
-            
             let max = highlightV.frame.width > highlightV.frame.height ? highlightV.frame.height : highlightV.frame.width
-            lblToday.frame.size = CGSize(width: max, height: max)
-            lblToday.center = highlightV.center
+            let bgView = UIView(frame: highlightV.bounds)
+            bgView.frame.size = CGSize(width: max, height: max)
+            bgView.center = highlightV.center
+            bgView.backgroundColor = .orangeCalendar
+            bgView.layer.cornerRadius = max / 3.5
             
-            //backround label = orange, set corner radius
-            lblToday.backgroundColor = UIColor.orangeCalendar
-            lblToday.clipsToBounds = true
             
-            lblToday.layer.cornerRadius = max / 3.5
-            lblToday.textColor = .white
             
+            
+            highlightV.traverseLabel(){ lbl in
+                lbl.textColor = .white
+            } //label
+            
+//            lblToday.frame.size = CGSize(width: max, height: max)
+//            lblToday.center = highlightV.center
+//
+//            //backround label = orange, set corner radius
+//            lblToday.backgroundColor = UIColor.orangeCalendar
+//            lblToday.clipsToBounds = true
+//
+//            lblToday.layer.cornerRadius = max / 3.5
+            highlightV.insertSubview(bgView, at: 0)
         }
     }
     
