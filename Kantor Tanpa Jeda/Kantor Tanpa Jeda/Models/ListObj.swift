@@ -11,18 +11,18 @@ import UIKit
 
 class ListObj: BaseModel {
     
-    var letterCode : String? { return self[#function] as? String; }
-    var letterNumber : String? { return self[#function] as? String; }
-    var letterSubject : String? { return self[#function] as? String; }
-    var letterType : String? { return self[#function] as? String; }
-    var letterCharacter : String? { return self[#function] as? String; }
-    var file : String? { return self[#function] as? String; }
-    var sender : String? { return self[#function] as? String; }
-    var postedAt : String? { return self[#function] as? String; }
-    var receiver : String? { return self[#function] as? String; }
-    var isDisposition : Bool? { return self[#function] as? Bool; }
-    var isActionable : Bool? { return self[#function] as? Bool; }
-    var letterStatus : String? { return self[#function] as? String; }
+    var letterCode : String? { return self[#function.snake] as? String; }
+    var letterNumber : String? { return self[#function.snake] as? String; }
+    var letterSubject : String? { return self[#function.snake] as? String; }
+    var letterType : String? { return self[#function.snake] as? String; }
+    var letterCharacter : String? { return self[#function.snake] as? String; }
+    var file : String? { return self[#function.snake] as? String; }
+    var sender : String? { return self[#function.snake] as? String; }
+    var postedAt : String? { return self[#function.snake] as? String; }
+    var receiver : String? { return self[#function.snake] as? String; }
+    var isDisposition : Bool? { return self[#function.snake] as? Bool; }
+    var isActionable : Bool? { return self[#function.snake] as? Bool; }
+    var letterStatus : String? { return self[#function.snake] as? String; }
     
 }
 

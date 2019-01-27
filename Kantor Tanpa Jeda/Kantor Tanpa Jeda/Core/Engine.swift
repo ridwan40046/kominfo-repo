@@ -25,13 +25,18 @@ extension Engine {
             locker.oauth = OAuthObj($0);
             print("DATA LOCKER: \(locker.oauth?.authorization?.apiToken)")
             callback?(OAuthObj($0));
-            
         }
     }
     
     func getInboxes(callback: Return<InboxObj?>? = nil){
         net.request(url: Url.inboxes){
             callback? (InboxObj(obj: $0))
+        }
+    }
+    
+    func me(callback: Return<UserDetailObj?>? = nil){
+        net.request(url: Url.me){
+            callback? (UserDetailObj(obj: $0))
         }
     }
     

@@ -18,6 +18,14 @@ class HomeVc: BaseVc {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        engine.me(){
+            if $0?.isSuccess ?? false {
+                print("nama \($0?.userDetail?.name)")
+                self.name.text = $0?.userDetail?.name
+                self.jabatan.text = $0?.userDetail?.position
+            }
+        }
+
         menu()
         self.navigationItem.title = "Kantor Tanpa Jeda"
         imageProfile.makeRounded()

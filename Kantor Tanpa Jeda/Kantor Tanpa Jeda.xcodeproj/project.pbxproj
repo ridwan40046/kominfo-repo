@@ -189,6 +189,7 @@
 		9F0BA86421656F2A001C3A4B /* Reachability+Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0BA85F21656F2A001C3A4B /* Reachability+Function.swift */; };
 		9F0BA86521656F2A001C3A4B /* AMPopTip+Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0BA86021656F2A001C3A4B /* AMPopTip+Function.swift */; };
 		9F0BA86621656F2A001C3A4B /* Toaster+Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0BA86121656F2A001C3A4B /* Toaster+Function.swift */; };
+		9F2029B721CE014F003F6149 /* interface 1_rv1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F2029B621CE014F003F6149 /* interface 1_rv1.jpg */; };
 		9F47D51F216B35CA00FAF37E /* Username.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F47D51D216B35C900FAF37E /* Username.png */; };
 		9F47D520216B35CA00FAF37E /* Password.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F47D51E216B35CA00FAF37E /* Password.png */; };
 		9F4B53D7216C37F1000C97FF /* office.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F4B53D6216C37F1000C97FF /* office.jpg */; };
@@ -486,6 +487,7 @@
 		9F0BA86F21657034001C3A4B /* Singleton+Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Singleton+Data.swift"; sourceTree = "<group>"; };
 		9F0BA87021657035001C3A4B /* Singleton+OAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Singleton+OAuth.swift"; sourceTree = "<group>"; };
 		9F0BA87121657035001C3A4B /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		9F2029B621CE014F003F6149 /* interface 1_rv1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "interface 1_rv1.jpg"; sourceTree = "<group>"; };
 		9F47D51D216B35C900FAF37E /* Username.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Username.png; sourceTree = "<group>"; };
 		9F47D51E216B35CA00FAF37E /* Password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Password.png; sourceTree = "<group>"; };
 		9F4B53D6216C37F1000C97FF /* office.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = office.jpg; sourceTree = "<group>"; };
@@ -766,6 +768,7 @@
 		9F0BA73E216566E2001C3A4B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9F2029B621CE014F003F6149 /* interface 1_rv1.jpg */,
 				9F99FF5821763AEA0009CDC6 /* unnamed (2).png */,
 				9F02CEF9216F2961004AE3AB /* nissa 2.jpg */,
 				8AB94FF32177711D00EBFA12 /* arrowDownClear.png */,
@@ -1194,6 +1197,7 @@
 				9FA301AF216BB42B0030B44E /* SF-Pro-Display-UltralightItalic.otf in Resources */,
 				9FA301B7216BB42B0030B44E /* SanFranciscoText-Heavy.otf in Resources */,
 				9F0A6E442163C54600BF2841 /* LaunchScreen.storyboard in Resources */,
+				9F2029B721CE014F003F6149 /* interface 1_rv1.jpg in Resources */,
 				9FA301C1216BB42B0030B44E /* SF-Pro-Text-RegularItalic.otf in Resources */,
 				9F0BA76221656AFA001C3A4B /* inbox.png in Resources */,
 				9FA301A8216BB42B0030B44E /* SanFranciscoText-HeavyItalic.otf in Resources */,

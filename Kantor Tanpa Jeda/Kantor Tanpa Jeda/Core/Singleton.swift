@@ -51,9 +51,8 @@ extension Singleton {
         store.synchronize();
     }
     
-    var oauth : OAuthObj? {
-        get { return OAuthObj (json: loadCollection(key: #function)); }
-        set { saveCollection(key: #function, collection: newValue?.rawData); }
+    var oauth: OAuthObj? {
+        get { return OAuthObj(json: loadCollection(key: #function.snake)); }
+        set { saveCollection(key: #function.snake, collection: newValue?.rawData); }
     }
-    
 }
