@@ -11,10 +11,10 @@ import UIKit
 
 extension Network {
     
-    var clientSecret : String { return "EMUvJFWKhRWevaaGT1CV4wxV8VrlvGIywt0mVbdT" }
     var clientId : String { return "12345678"; }
     var clientUsername : String { return "waya003"; }
     var clientPassword : String { return "12345678"; }
+    var notifId : String { return "843494590"}
 
     
     /** Use this to login OAuth */
@@ -22,13 +22,14 @@ extension Network {
         let param = [
             "username": clientUsername,
             "password": clientPassword,
-            "device_id": clientId
+            "device_id": clientId,
+            "notif_token": notifId
         ];
         
         requestBase(method: .post, url: Url.login, param: param as [String: AnyObject]) {
-            //let oauth = OAuthObj($0);
+            let oauth = OAuthObj($0);
 //            oauth?.expiresFrom = Date();
-//            locker.oauth = oauth;
+            locker.oauth = oauth;
             callback?(OAuthObj($0));
         }
     }

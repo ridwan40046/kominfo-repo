@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Kantor Tanpa Jeda/View Controllers/Auth/LoginVc.swift"
-            timestampString = "566215490.218277"
+            timestampString = "568522103.380591"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "btnLoginTapped(_:)"
             landmarkType = "7">
             <Locations>
@@ -73,76 +73,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Kantor Tanpa Jeda/Core/Engine.swift"
-            timestampString = "566215490.21851"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "login(username:password:deviceId:callback:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Kantor Tanpa Jeda/Core/Network+Oauth.swift"
-            timestampString = "566215490.218644"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "newOAuth(callback:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Kantor_Tanpa_Jeda.Network.newOAuth(callback: Swift.Optional&lt;(Swift.Optional&lt;Kantor_Tanpa_Jeda.OAuthObj&gt;) -&gt; ()&gt;) -&gt; ()"
-                  moduleName = "Kantor Tanpa Jeda"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ridwansuryaputra/Desktop/CoursesSelf/kominfo-repo/Kantor%20Tanpa%20Jeda/Kantor%20Tanpa%20Jeda/Core/Network+Oauth.swift"
-                  timestampString = "566194594.449455"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "324">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Kantor_Tanpa_Jeda.JsonObject&gt;) -&gt; () in Kantor_Tanpa_Jeda.Network.newOAuth(callback: Swift.Optional&lt;(Swift.Optional&lt;Kantor_Tanpa_Jeda.OAuthObj&gt;) -&gt; ()&gt;) -&gt; ()"
-                  moduleName = "Kantor Tanpa Jeda"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ridwansuryaputra/Desktop/CoursesSelf/kominfo-repo/Kantor%20Tanpa%20Jeda/Kantor%20Tanpa%20Jeda/Core/Network+Oauth.swift"
-                  timestampString = "566194594.451205"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "36">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "Kantor Tanpa Jeda/View Controllers/Auth/LoginVc.swift"
-            timestampString = "566215490.218734"
+            timestampString = "568522103.38071"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "btnRegisterTapped(_:)"
             landmarkType = "7">
             <Locations>
@@ -182,47 +118,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Kantor Tanpa Jeda/Core/Network.swift"
-            timestampString = "566215490.218821"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "197"
-            endingLineNumber = "197"
-            landmarkName = "request(method:url:param:callback:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Kantor Tanpa Jeda/Core/Network.swift"
-            timestampString = "566215490.218912"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "203"
-            endingLineNumber = "203"
-            landmarkName = "request(method:url:param:callback:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Kantor Tanpa Jeda/View Controllers/Auth/LoginVc.swift"
-            timestampString = "566215490.218995"
+            timestampString = "568522103.380764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "btnRegisterTapped(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -234,13 +138,77 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Kantor Tanpa Jeda/View Controllers/Auth/LoginVc.swift"
-            timestampString = "566215490.2190911"
+            timestampString = "568522103.3808089"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "btnRegisterTapped(_:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kantor Tanpa Jeda/Core/Network+Oauth.swift"
+            timestampString = "566672692.214252"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "newOAuth(callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kantor Tanpa Jeda/View Controllers/Inbox/InboxDetailVc.swift"
+            timestampString = "567480337.212154"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "downloadTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kantor Tanpa Jeda/View Controllers/Inbox/InboxDetailVc.swift"
+            timestampString = "567480337.212556"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "show(currentVc:letterType:letterNumber:letterDate:sender:letterCharacter:letterSubject:file:isActionable:isDisposition:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kantor Tanpa Jeda/View Controllers/Home/HomeVc.swift"
+            timestampString = "568522103.380923"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

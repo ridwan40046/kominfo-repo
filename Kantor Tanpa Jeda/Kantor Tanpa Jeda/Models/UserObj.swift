@@ -9,6 +9,9 @@
 import Foundation
 import UIKit
 
+class UserDetailObj: BaseModel{
+    var userDetail: UserObj? { return UserObj(self[#function.snake]); }
+}
 class UserObj: BaseModel {
     var code : String? { return self[#function] as? String; }
     var name : String? { return self[#function] as? String; }

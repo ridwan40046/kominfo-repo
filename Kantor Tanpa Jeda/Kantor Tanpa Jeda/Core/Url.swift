@@ -19,5 +19,5 @@ class Url {
     static var login = main + "/login";
     static var register = main + "/register"
     static var inboxes = main + "/inboxes"
-
+    static var me = main + "/me"
 }
