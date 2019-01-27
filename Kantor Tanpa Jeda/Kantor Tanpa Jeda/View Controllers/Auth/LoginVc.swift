@@ -28,12 +28,8 @@ class LoginVc: UIViewController,UITextFieldDelegate {
     }
 
     @IBAction func btnLoginTapped(_ sender: UIButton) {
-<<<<<<< HEAD
         Util.showIndicatorDarkOverlay(self.view)
         engine.login(username: tfUsername.text, password: tfPassword.text,deviceId: "12345678",notif: "777777"){
-=======
-        engine.login(username: "waya003", password: "12345678",deviceId: "12345678", notif: "12345678"){
->>>>>>> master
             if $0?.isSuccess ?? false{
                 DispatchQueue.main.async {
                     let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
