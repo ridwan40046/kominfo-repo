@@ -25,54 +25,6 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Kantor Tanpa Jeda/View Controllers/Auth/LoginVc.swift"
-            timestampString = "570246919.053411"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "btnLoginTapped(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Kantor_Tanpa_Jeda.LoginVc.btnLoginTapped(__C.UIButton) -&gt; ()"
-                  moduleName = "Kantor Tanpa Jeda"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ridwansuryaputra/Desktop/CoursesSelf/kominfo-repo/Kantor%20Tanpa%20Jeda/Kantor%20Tanpa%20Jeda/View%20Controllers/Auth/LoginVc.swift"
-                  timestampString = "566192045.346464"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "36">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Kantor_Tanpa_Jeda.OAuthObj&gt;) -&gt; () in Kantor_Tanpa_Jeda.LoginVc.btnLoginTapped(__C.UIButton) -&gt; ()"
-                  moduleName = "Kantor Tanpa Jeda"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ridwansuryaputra/Desktop/CoursesSelf/kominfo-repo/Kantor%20Tanpa%20Jeda/Kantor%20Tanpa%20Jeda/View%20Controllers/Auth/LoginVc.swift"
-                  timestampString = "566192045.348125"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "28">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "Kantor Tanpa Jeda/Core/Network+Oauth.swift"
             timestampString = "570246919.053582"
             startingColumnNumber = "9223372036854775807"

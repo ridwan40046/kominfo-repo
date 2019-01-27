@@ -19,10 +19,7 @@ class Url {
     static var login = main + "/login";
     static var register = main + "/register"
     static var inboxes = main + "/inboxes"
-<<<<<<< HEAD
     static var me = main + "/me"
-=======
->>>>>>> master
     static var headAgendas = main + "/head_agendas"
     
     static func headAgendasByRange(startDate: Date, endDate: Date) -> String {
@@ -33,8 +30,4 @@ class Url {
         
         return headAgendas + "/\(start)/\(end)"
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> master
 }

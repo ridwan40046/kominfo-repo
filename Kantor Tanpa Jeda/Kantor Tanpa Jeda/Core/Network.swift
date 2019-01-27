@@ -193,10 +193,6 @@ extension Network {
         }
         
         begin();
-<<<<<<< HEAD
-=======
-//        beginWithOAuth();
->>>>>>> master
         //        if locker.oauth?.expiresDate?.isExpired ?? true {
         //            newOAuth { response in
         //                if response?.isSuccess ?? false { begin(); }

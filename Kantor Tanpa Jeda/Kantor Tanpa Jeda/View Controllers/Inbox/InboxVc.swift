@@ -17,7 +17,6 @@ class InboxVc: BaseVc {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-<<<<<<< HEAD
         reloadData()
         refreshControl = UIRefreshControl()
         refreshControl?.addTarget(self, action: #selector(self.reloadData), for: .valueChanged)
@@ -27,10 +26,6 @@ class InboxVc: BaseVc {
             // Fallback on earlier versions
             tv?.addSubview(refreshControl!)
         }
-
-=======
-        engine.getInboxes()
->>>>>>> master
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
