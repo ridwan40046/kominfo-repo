@@ -21,6 +21,7 @@ class NewAgendaVc: BaseVc {
         self.tabBarController?.tabBar.isHidden = false
     }
 }
+
 extension NewAgendaVc: UITableViewDataSource, UITableViewDelegate {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 6
@@ -38,7 +39,8 @@ extension NewAgendaVc: UITableViewDataSource, UITableViewDelegate {
         case (_, 0):
             let cell = tableView.cell("header")!
             let label = cell.Label(1)
-            label.text = header[indexPath.row]
+            let text = header[indexPath.section]
+            label.text = header[indexPath.section]
             return cell
         case (0, _):
             let cell = tableView.cell("standard")!

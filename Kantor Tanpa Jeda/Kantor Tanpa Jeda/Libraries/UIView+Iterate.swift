@@ -52,6 +52,14 @@ extension UIView {
         traverseButton (operation: operation, whenDone: whenDone);
     }
     
+    func traverseLabel (operation: ((UILabel)->Void)) {
+        traverse() { if let t = $0 as? UILabel { operation(t); } }
+    }
+    
+    func traverseLabel (operation: ((UILabel)->Void), whenDone: (()->Void)) {
+        traverseLabel (operation: operation, whenDone: whenDone);
+    }
+    
     func traverseResponder (operation: ((UIView)->Void)) {
         traverse() { if ($0 as? UITextField) != nil || ($0 as? UITextView) != nil { operation($0); } }
     }

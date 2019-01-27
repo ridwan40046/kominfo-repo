@@ -18,6 +18,7 @@
 		8A482ACD2170E863007BE6BD /* arrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A482ACC2170E863007BE6BD /* arrowDown.png */; };
 		8A482ACF2170EB86007BE6BD /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A482ACE2170EB86007BE6BD /* share.png */; };
 		8A482AD12170F04B007BE6BD /* NewAgendaVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A482AD02170F04B007BE6BD /* NewAgendaVc.swift */; };
+		8A958B1421C01AFE00691A6E /* AgendaObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A958B1321C01AFE00691A6E /* AgendaObj.swift */; };
 		8AB94FF42177711D00EBFA12 /* arrowDownClear.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AB94FF32177711D00EBFA12 /* arrowDownClear.png */; };
 		8AB94FF62177789800EBFA12 /* Month Year picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB94FF52177789800EBFA12 /* Month Year picker.swift */; };
 		8AB94FF7217780D000EBFA12 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0BA86D21656FDF001C3A4B /* Aliases.swift */; };
@@ -306,6 +307,7 @@
 		8A482ACC2170E863007BE6BD /* arrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowDown.png; sourceTree = "<group>"; };
 		8A482ACE2170EB86007BE6BD /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
 		8A482AD02170F04B007BE6BD /* NewAgendaVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAgendaVc.swift; sourceTree = "<group>"; };
+		8A958B1321C01AFE00691A6E /* AgendaObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaObj.swift; sourceTree = "<group>"; };
 		8AB94FF32177711D00EBFA12 /* arrowDownClear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowDownClear.png; sourceTree = "<group>"; };
 		8AB94FF52177789800EBFA12 /* Month Year picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Month Year picker.swift"; sourceTree = "<group>"; };
 		8AB94FF821778AD400EBFA12 /* LaporanVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaporanVc.swift; sourceTree = "<group>"; };
@@ -833,6 +835,7 @@
 				9FE3ACCD21BE001900B6D7E8 /* OAuthObj.swift */,
 				9F6843BB21BF52E70078E2E9 /* AuthenticationObj.swift */,
 				9F6843BD21BF54160078E2E9 /* UserObj.swift */,
+				8A958B1321C01AFE00691A6E /* AgendaObj.swift */,
 				9F6843BF21BFA9000078E2E9 /* InboxObj.swift */,
 				9F6843C121BFAA170078E2E9 /* ListObj.swift */,
 				9F6843C321BFB5A10078E2E9 /* MetaObj.swift */,
@@ -1355,6 +1358,7 @@
 				8AC85BEF21710D130096CA37 /* UIColor + random.swift in Sources */,
 				9F0BA7FD21656E90001C3A4B /* String+Randomize.swift in Sources */,
 				9F0BA81A21656E90001C3A4B /* UIView+Shadow.swift in Sources */,
+				8A958B1421C01AFE00691A6E /* AgendaObj.swift in Sources */,
 				9F0BA7E221656E90001C3A4B /* String+Case.swift in Sources */,
 				9F0BA84521656E90001C3A4B /* UITableView+RefreshControl.swift in Sources */,
 				9FE3ACD021BE008500B6D7E8 /* ErrorObj.swift in Sources */,

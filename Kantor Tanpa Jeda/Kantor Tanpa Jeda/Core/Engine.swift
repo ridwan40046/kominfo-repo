@@ -33,9 +33,16 @@ extension Engine {
             callback? (InboxObj(obj: $0))
         }
     }
+    
     func me(callback: Return<UserDetailObj?>? = nil){
         net.request(url: Url.me){
             callback? (UserDetailObj(obj: $0))
+        }
+    }
+    
+    static func getHeadAgenda(start: Date, end: Date, callback:Return<AgendaModel?>? = nil) {
+        net.request(url: Url.headAgendasByRange(startDate: start, endDate: end)) {
+            callback? (AgendaModel(obj: $0))
         }
     }
 //    static func getAttendanceSubject(callback: Return<AttendancesObj?>? = nil){
@@ -43,4 +50,6 @@ extension Engine {
 //            callback? (AttendancesObj(obj: $0))
 //        }
 //    }
+    
+    
 }
