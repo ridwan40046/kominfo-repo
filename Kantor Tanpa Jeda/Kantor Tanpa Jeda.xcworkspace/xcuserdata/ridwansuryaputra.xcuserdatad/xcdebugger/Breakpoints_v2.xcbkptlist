@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Kantor Tanpa Jeda/View Controllers/Auth/LoginVc.swift"
-            timestampString = "568522103.380591"
+            timestampString = "570246919.053411"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "btnLoginTapped(_:)"
             landmarkType = "7">
             <Locations>
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Kantor Tanpa Jeda/Core/Network+Oauth.swift"
-            timestampString = "566672692.214252"
+            timestampString = "570246919.053582"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"

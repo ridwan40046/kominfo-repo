@@ -23,7 +23,11 @@ extension Network {
             "username": clientUsername,
             "password": clientPassword,
             "device_id": clientId,
+<<<<<<< HEAD
             "notif_token": notifId
+=======
+            "notif_token": "12345678"
+>>>>>>> master
         ];
         
         requestBase(method: .post, url: Url.login, param: param as [String: AnyObject]) {

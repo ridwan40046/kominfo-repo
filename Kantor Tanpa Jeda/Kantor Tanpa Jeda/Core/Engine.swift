@@ -25,6 +25,10 @@ extension Engine {
             locker.oauth = OAuthObj($0);
             print("DATA LOCKER: \(locker.oauth?.authorization?.apiToken)")
             callback?(OAuthObj($0));
+<<<<<<< HEAD
+=======
+            
+>>>>>>> master
         }
     }
     
@@ -34,17 +38,24 @@ extension Engine {
         }
     }
     
+<<<<<<< HEAD
     func me(callback: Return<UserDetailObj?>? = nil){
         net.request(url: Url.me){
             callback? (UserDetailObj(obj: $0))
         }
     }
     
+=======
+>>>>>>> master
     static func getHeadAgenda(start: Date, end: Date, callback:Return<AgendaModel?>? = nil) {
         net.request(url: Url.headAgendasByRange(startDate: start, endDate: end)) {
             callback? (AgendaModel(obj: $0))
         }
     }
+<<<<<<< HEAD
+=======
+    
+>>>>>>> master
 //    static func getAttendanceSubject(callback: Return<AttendancesObj?>? = nil){
 //        makeRequestAlamofireModel(url: Url.attendanceSubject) {
 //            callback? (AttendancesObj(obj: $0))
